@@ -2,7 +2,7 @@
   <div class="search-container">
     <div v-if="disabled" class="search-bar" @click="search">快来搜索朋友吧</div>
     <input v-else type="text" class="search-bar" placeholder="快来搜索朋友吧" @input="change" v-focus>
-    <mu-icon v-if="disabled" class="search-icon" size="32" value="search" @click="search"></mu-icon>
+    <mu-icon v-if="disabled" class="search-icon" size="32" value="search" @click="search" color="#03a9f4"></mu-icon>
     <span v-else class="search-text" @click="cancel">取消</span>
   </div>
 </template>
@@ -41,8 +41,11 @@ export default {
   width: 100%;
   display: block;
   margin: 0 auto;
+  padding: 10px;
+  color: #03a9f4;
   .search-bar {
     margin: 0 auto;
+    border-radius: 5px;
     width: 100%;
     height: 45px;
     line-height: 45px;
@@ -80,7 +83,7 @@ export default {
 .search-text{
   position: absolute;
   line-height: 45px;
-  right: 10px;
+  right: 20px;
   font-size: 16px;
   color: #2196f3;
   padding-left: 10px;

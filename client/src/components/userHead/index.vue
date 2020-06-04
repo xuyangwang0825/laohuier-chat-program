@@ -39,7 +39,7 @@ export default {
 
   .head {
     width: 80px;
-    margin: 20px auto 0;
+    margin: 40px auto 0;
 
     img {
       width: 80px;
@@ -61,7 +61,6 @@ export default {
     top: 0;
     left: 0;
     width: 100%;
-    height: 200px;
     z-index: -1;
     filter: blur(10px);
 

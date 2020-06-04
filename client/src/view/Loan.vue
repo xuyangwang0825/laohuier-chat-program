@@ -4,9 +4,9 @@
       <mu-appbar>
         <mu-button icon slot="left" >
         </mu-button>
-        <div class="title">唠会儿！</div>
+        <div class="title">唠会儿</div>
         <mu-button icon slot="right">
-          <mu-icon value="expand_more"></mu-icon>
+          <mu-icon value="expand_more" color="#03a9f4"></mu-icon>
         </mu-button>
       </mu-appbar>
     </div>
@@ -22,8 +22,23 @@
               </div>
             </mu-list-item-action>
             <mu-list-item-content>
-              <mu-list-item-title>公共聊天室</mu-list-item-title>
+              <mu-list-item-title>聊天室1</mu-list-item-title>
               <mu-list-item-sub-title>{{getTailMsg('room1')}}</mu-list-item-sub-title>
+            </mu-list-item-content>
+            <mu-list-item-action>
+              <mu-icon value="chat_bubble"></mu-icon>
+            </mu-list-item-action>
+          </mu-list-item>
+          <mu-list-item avatar button :ripple="true" @click="chatwindow('room2')">
+            <mu-list-item-action>
+              <div class="avatar">
+                <span class="tip" v-if="unRead2!==0">{{unRead2 > 99 ? '99+' : unRead2}}</span>
+                <Avatar :src="house2" size="small"></Avatar>
+              </div>
+            </mu-list-item-action>
+            <mu-list-item-content>
+              <mu-list-item-title>聊天室2</mu-list-item-title>
+              <mu-list-item-sub-title>{{getTailMsg('room2')}}</mu-list-item-sub-title>
             </mu-list-item-content>
             <mu-list-item-action>
               <mu-icon value="chat_bubble"></mu-icon>
@@ -31,6 +46,20 @@
           </mu-list-item>
         </mu-list>
         <mu-divider/>
+        <mu-list>
+          <mu-sub-header>客服</mu-sub-header>
+          <mu-list-item avatar button :ripple="true" @click="chatRobot('')">
+            <mu-list-item-action>
+              <mu-avatar class="avatar">
+                <img :src="robot">
+              </mu-avatar>
+            </mu-list-item-action>
+<!--            <mu-list-item-title>客服大白(微信群，作者联系方式，找我)</mu-list-item-title>-->
+            <mu-list-item-action>
+              <mu-icon value="chat_bubble"></mu-icon>
+            </mu-list-item-action>
+          </mu-list-item>
+        </mu-list>
         <mu-list>
           <mu-sub-header>好友</mu-sub-header>
           <mu-list-item avatar button :ripple="true" @click="chatSingle(item.friendId._id, item.friendId.name)" v-for="item in friendList" :key="item._id">
@@ -51,6 +80,7 @@
       </mu-paper>
     </div>
     <Bottom></Bottom>
+<!--     <p style="text-align: center;position: absolute; bottom:0;width: 100%;">©2020 蓝色的秋风&nbsp&nbsp&nbsp<a href="http://beian.miit.gov.cn" target="_blank">浙ICP备16040413号-1</a></p>-->
   </div>
 </template>
 
@@ -147,8 +177,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="stylus" rel="stylesheet/stylus">
+
 .title {
   text-align: center;
+  color: #03a9f4;
 }
 .chat-list {
   overflow-y: scroll;

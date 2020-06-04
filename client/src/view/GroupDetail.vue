@@ -4,7 +4,7 @@
       leftIcon="chevron_left"
       rightIcon=""
       content="聊天信息"
-      color=""
+      color="#03a9f4"
       @leftClick="goback"
       ></Header>
     <div class="all-chat">
@@ -143,7 +143,7 @@ export default {
   background: #ddd;
 }
 .group-avatar {
-  padding: 10px 0;
+  padding: 20px 0 10px;
 }
 .list-avatar {
   margin-left: 10px;

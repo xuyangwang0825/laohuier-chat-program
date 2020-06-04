@@ -42,6 +42,7 @@ export default {
 <style lang="stylus" rel="stylesheet/stylus" scoped>
 .header {
   height: 56px;
+  background: #03a9f4;
 }
 
 .title {

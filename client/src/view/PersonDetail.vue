@@ -4,7 +4,7 @@
       leftIcon="chevron_left"
       rightIcon=""
       content="个人信息"
-      color=""
+      color="#03a9f4"
       @leftClick="goback"
       ></Header>
     <div class="all-chat">
@@ -146,6 +146,8 @@ export default {
 .group-list {
   margin-bottom: 10px;
   background: #fff;
+  border-radius 5px 5px 0 0;
+  height: 500px;
   .group-info-detail {
     min-width: 80px;
   }
