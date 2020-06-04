@@ -1,4 +1,4 @@
-
+**refer to https://github.com/hua1995116/webchat/tree/v2.2.0**
 ## 启动项目
 
 Dev环境: MongoDB、Node 8.5.0+、Npm 5.3.0+
