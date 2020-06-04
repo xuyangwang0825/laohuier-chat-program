@@ -1,0 +1,1013 @@
+[2020-06-04T16:28:13.034] [INFO] default - cache!!!!
+[2020-06-04T16:45:03.018] [INFO] default - success
+[2020-06-04T16:53:03.242] [INFO] default - cache!!!!
+[2020-06-04T16:58:20.384] [INFO] default - cache!!!!
+[2020-06-04T17:02:13.537] [INFO] default - cache!!!!
+[2020-06-04T17:10:45.964] [INFO] default - cache!!!!
+[2020-06-04T17:11:33.498] [INFO] default - success
+[2020-06-04T17:12:49.259] [INFO] default - success
+[2020-06-04T17:20:10.933] [INFO] default - cache!!!!
+[2020-06-04T17:42:01.784] [INFO] default - cache!!!!
+[2020-06-04T17:43:21.398] [INFO] default - cache!!!!
+[2020-06-04T19:48:39.425] [INFO] default - cache!!!!
+[2020-06-04T19:49:19.588] [INFO] default - RedisCache!!!!
+[2020-06-04T19:50:15.869] [INFO] default - RedisCache!!!!
+[2020-06-04T19:50:53.082] [INFO] default - RedisCache!!!!
+[2020-06-04T19:56:09.340] [INFO] default - success
+[2020-06-04T20:04:18.554] [INFO] default - RedisCache!!!!
+[2020-06-04T20:07:32.191] [INFO] default - RedisCache!!!!
+[2020-06-04T20:13:33.810] [INFO] default - RedisCache!!!!
+[2020-06-04T20:15:25.271] [INFO] default - RedisCache!!!!
+[2020-06-04T20:15:53.234] [INFO] default - success
+[2020-06-04T20:20:29.714] [INFO] default - RedisCache!!!!
+[2020-06-04T20:20:34.088] [INFO] default - socket connect!
+[2020-06-04T20:20:34.210] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.61',
+  name: 'diobrando',
+  id: '5ed8b3674903ce1b62c1c861',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36'
+}
+[2020-06-04T20:20:34.218] [INFO] default - socketRes null
+[2020-06-04T20:20:34.233] [INFO] default - addSocket model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: undefined,
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: true,
+    version: undefined,
+    getters: {},
+    _id: 5ed8e7121a8b3648ab9d1b72,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: {},
+      states: [Object],
+      stateNames: [Array],
+      map: [Function]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0,
+      [Symbol(kCapture)]: false
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.61',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
+    time: 2020-06-04T12:20:29.669Z,
+    _id: 5ed8e7121a8b3648ab9d1b72,
+    ip: '125.33.39.17',
+    socketId: 'XNT9GzYG9hyhUJoCAAAA',
+    userId: 5ed8b3674903ce1b62c1c861,
+    __v: 0
+  }
+}
+[2020-06-04T20:20:34.234] [INFO] default - socket login! {
+  name: 'diobrando',
+  id: '5ed8b3674903ce1b62c1c861',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.61',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36'
+} XNT9GzYG9hyhUJoCAAAA ::ffff:125.33.39.17 125.33.39.17
+[2020-06-04T20:20:34.261] [INFO] default - socket add room!
+[2020-06-04T20:20:34.262] [INFO] default - diobrando 加入了 room1
+[2020-06-04T20:20:34.263] [INFO] default - socket add room!
+[2020-06-04T20:20:34.263] [INFO] default - diobrando 加入了 room2
+[2020-06-04T20:20:37.996] [INFO] default - socket message!
+[2020-06-04T20:20:37.996] [INFO] default - {
+  username: 'diobrando',
+  src: '//s3.qiufengh.com/avatar/225.jpeg',
+  img: '',
+  msg: '123',
+  to: '5ed8b22f4903ce1b62c1c860',
+  from: '5ed8b3674903ce1b62c1c861',
+  roomType: 'single',
+  roomid: '5ed8b3674903ce1b62c1c861-5ed8b22f4903ce1b62c1c860',
+  time: '2020-06-04T12:20:37.985Z',
+  type: 'text',
+  clientId: '0943495f-9fa0-4539-a4a4-25fd27c03e34'
+}
+[2020-06-04T20:20:37.997] [INFO] default - diobrando 对房 5ed8b3674903ce1b62c1c861-5ed8b22f4903ce1b62c1c860 说: 123
+[2020-06-04T20:20:38.029] [INFO] default - 自己的id XNT9GzYG9hyhUJoCAAAA
+[2020-06-04T20:26:13.873] [INFO] default - RedisCache!!!!
+[2020-06-04T20:26:16.918] [INFO] default - socket connect!
+[2020-06-04T20:26:17.207] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.61',
+  name: 'diobrando',
+  id: '5ed8b3674903ce1b62c1c861',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36'
+}
+[2020-06-04T20:26:17.217] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ed8e7121a8b3648ab9d1b72,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0,
+      [Symbol(kCapture)]: false
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.61',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
+    time: 2020-06-04T12:20:29.669Z,
+    __v: 0,
+    ip: '125.33.39.17',
+    socketId: 'XNT9GzYG9hyhUJoCAAAA',
+    userId: 5ed8b3674903ce1b62c1c861,
+    _id: 5ed8e7121a8b3648ab9d1b72
+  },
+  '$init': true
+}
+[2020-06-04T20:26:17.243] [INFO] default - updateRes
+[2020-06-04T20:26:17.244] [INFO] default - socket login! {
+  name: 'diobrando',
+  id: '5ed8b3674903ce1b62c1c861',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.61',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36'
+} SNCBT4CmgJCgQcMzAAAA ::ffff:125.33.39.17 125.33.39.17
+[2020-06-04T20:26:17.588] [INFO] default - socket add room!
+[2020-06-04T20:26:17.589] [INFO] default - diobrando 加入了 room1
+[2020-06-04T20:26:17.592] [INFO] default - socket add room!
+[2020-06-04T20:26:17.593] [INFO] default - diobrando 加入了 room2
+[2020-06-04T20:26:29.738] [INFO] default - socket disconnect!
+[2020-06-04T20:26:29.738] [INFO] default - diobrando 退出了 room1
+[2020-06-04T20:26:29.738] [INFO] default - diobrando 退出了 room2
+[2020-06-04T20:38:19.742] [INFO] default - RedisCache!!!!
+[2020-06-04T20:38:26.456] [INFO] default - socket connect!
+[2020-06-04T20:38:27.013] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.61',
+  name: 'diobrando',
+  id: '5ed8b3674903ce1b62c1c861',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36'
+}
+[2020-06-04T20:38:27.024] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ed8e7121a8b3648ab9d1b72,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0,
+      [Symbol(kCapture)]: false
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.61',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
+    time: 2020-06-04T12:20:29.669Z,
+    __v: 0,
+    ip: '125.33.39.17',
+    socketId: 'SNCBT4CmgJCgQcMzAAAA',
+    userId: 5ed8b3674903ce1b62c1c861,
+    _id: 5ed8e7121a8b3648ab9d1b72
+  },
+  '$init': true
+}
+[2020-06-04T20:38:27.032] [INFO] default - updateRes
+[2020-06-04T20:38:27.033] [INFO] default - socket login! {
+  name: 'diobrando',
+  id: '5ed8b3674903ce1b62c1c861',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.61',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36'
+} jy-4MANOTE9vE9kZAAAA ::ffff:125.33.39.17 125.33.39.17
+[2020-06-04T20:38:27.364] [INFO] default - socket add room!
+[2020-06-04T20:38:27.365] [INFO] default - diobrando 加入了 room1
+[2020-06-04T20:38:27.368] [INFO] default - socket add room!
+[2020-06-04T20:38:27.369] [INFO] default - diobrando 加入了 room2
+[2020-06-04T20:38:38.929] [INFO] default - socket connect!
+[2020-06-04T20:38:39.203] [INFO] default - socket disconnect!
+[2020-06-04T20:38:39.204] [INFO] default - diobrando 退出了 room1
+[2020-06-04T20:38:39.204] [INFO] default - diobrando 退出了 room2
+[2020-06-04T20:45:33.184] [INFO] default - socket disconnect!
+[2020-06-04T20:45:44.590] [INFO] default - socket connect!
+[2020-06-04T20:54:10.972] [INFO] default - socket disconnect!
+[2020-06-04T20:54:26.227] [INFO] default - socket connect!
+[2020-06-04T20:54:55.054] [INFO] default - socket disconnect!
+[2020-06-04T20:57:04.863] [INFO] default - socket connect!
+[2020-06-04T20:57:11.182] [INFO] default - socket disconnect!
+[2020-06-04T20:57:37.320] [INFO] default - socket connect!
+[2020-06-04T20:57:37.927] [INFO] default - socket connect!
+[2020-06-04T20:57:43.323] [INFO] default - socket disconnect!
+[2020-06-04T21:00:28.614] [INFO] default - socket connect!
+[2020-06-04T21:00:58.025] [INFO] default - success
+[2020-06-04T21:00:58.075] [INFO] default - {
+  browser: 'iPhone',
+  os: 'iOS13.5',
+  name: 'diobrando',
+  id: '5ed8b3674903ce1b62c1c861',
+  ua: 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.12(0x17000c30) NetType/4G Language/en'
+}
+[2020-06-04T21:00:58.079] [INFO] default - socketRes null
+[2020-06-04T21:00:58.086] [INFO] default - socket add room!
+[2020-06-04T21:00:58.087] [INFO] default - diobrando 加入了 room1
+[2020-06-04T21:00:58.087] [INFO] default - socket add room!
+[2020-06-04T21:00:58.087] [INFO] default - diobrando 加入了 room2
+[2020-06-04T21:00:58.092] [INFO] default - addSocket model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: undefined,
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: true,
+    version: undefined,
+    getters: {},
+    _id: 5ed8f08ac8fca8039a39f388,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: {},
+      states: [Object],
+      stateNames: [Array],
+      map: [Function]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0,
+      [Symbol(kCapture)]: false
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'iOS13.5',
+    browser: 'iPhone',
+    ua: 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.12(0x17000c30) NetType/4G Language/en',
+    time: 2020-06-04T12:38:19.683Z,
+    _id: 5ed8f08ac8fca8039a39f388,
+    ip: '124.64.17.21',
+    socketId: '56Z_9-W6GY_lgLQhAAAH',
+    userId: 5ed8b3674903ce1b62c1c861,
+    __v: 0
+  }
+}
+[2020-06-04T21:00:58.094] [INFO] default - socket login! {
+  name: 'diobrando',
+  id: '5ed8b3674903ce1b62c1c861',
+  browser: 'iPhone',
+  os: 'iOS13.5',
+  ua: 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.12(0x17000c30) NetType/4G Language/en'
+} 56Z_9-W6GY_lgLQhAAAH ::ffff:124.64.17.21 124.64.17.21
+[2020-06-04T21:01:02.177] [INFO] default - socket disconnect!
+[2020-06-04T21:01:02.178] [INFO] default - diobrando 退出了 room1
+[2020-06-04T21:01:02.178] [INFO] default - diobrando 退出了 room2
+[2020-06-04T21:01:02.584] [INFO] default - socket connect!
+[2020-06-04T21:01:02.856] [INFO] default - {
+  browser: 'iPhone',
+  os: 'iOS13.5',
+  name: 'diobrando',
+  id: '5ed8b3674903ce1b62c1c861',
+  ua: 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.12(0x17000c30) NetType/4G Language/en'
+}
+[2020-06-04T21:01:02.860] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ed8f08ac8fca8039a39f388,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0,
+      [Symbol(kCapture)]: false
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'iOS13.5',
+    browser: 'iPhone',
+    ua: 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.12(0x17000c30) NetType/4G Language/en',
+    time: 2020-06-04T12:38:19.683Z,
+    __v: 0,
+    ip: '124.64.17.21',
+    socketId: '56Z_9-W6GY_lgLQhAAAH',
+    userId: 5ed8b3674903ce1b62c1c861,
+    _id: 5ed8f08ac8fca8039a39f388
+  },
+  '$init': true
+}
+[2020-06-04T21:01:02.865] [INFO] default - updateRes
+[2020-06-04T21:01:02.865] [INFO] default - socket login! {
+  name: 'diobrando',
+  id: '5ed8b3674903ce1b62c1c861',
+  browser: 'iPhone',
+  os: 'iOS13.5',
+  ua: 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.12(0x17000c30) NetType/4G Language/en'
+} XiH_ZQoVRVGQFO4PAAAI ::ffff:124.64.17.21 124.64.17.21
+[2020-06-04T21:01:02.896] [INFO] default - socket add room!
+[2020-06-04T21:01:02.897] [INFO] default - diobrando 加入了 room1
+[2020-06-04T21:01:02.897] [INFO] default - socket add room!
+[2020-06-04T21:01:02.897] [INFO] default - diobrando 加入了 room2
+[2020-06-04T21:01:55.531] [INFO] default - socket message!
+[2020-06-04T21:01:55.532] [INFO] default - {
+  username: 'diobrando',
+  src: '//s3.qiufengh.com/webchat/181164avatar-F89AC131-DAAB-4CD5-A560-40D84B0B2685.jpeg',
+  img: '',
+  msg: '😄',
+  to: '5ed8b22f4903ce1b62c1c860',
+  from: '5ed8b3674903ce1b62c1c861',
+  roomType: 'single',
+  roomid: '5ed8b3674903ce1b62c1c861-5ed8b22f4903ce1b62c1c860',
+  time: '2020-06-04T13:01:55.478Z',
+  type: 'text',
+  clientId: '07bf5dcc-a992-4608-bace-0877f2646551'
+}
+[2020-06-04T21:01:55.532] [INFO] default - diobrando 对房 5ed8b3674903ce1b62c1c861-5ed8b22f4903ce1b62c1c860 说: 😄
+[2020-06-04T21:01:55.540] [INFO] default - 自己的id jy-4MANOTE9vE9kZAAAA
+[2020-06-04T21:01:55.540] [INFO] default - 自己的id XiH_ZQoVRVGQFO4PAAAI
+[2020-06-04T21:02:02.401] [INFO] default - socket message!
+[2020-06-04T21:02:02.401] [INFO] default - {
+  username: 'diobrando',
+  src: '//s3.qiufengh.com/webchat/181164avatar-F89AC131-DAAB-4CD5-A560-40D84B0B2685.jpeg',
+  img: '//s3.qiufengh.com/webchat/1591275722354-64A403A3-99AD-4789-A56B-B5FF30FE6C0F.jpeg?width=720&height=720',
+  msg: '',
+  roomType: 'single',
+  roomid: '5ed8b3674903ce1b62c1c861-5ed8b22f4903ce1b62c1c860',
+  type: 'img',
+  time: '2020-06-04T13:02:02.055Z',
+  to: '5ed8b22f4903ce1b62c1c860',
+  from: '5ed8b3674903ce1b62c1c861',
+  clientId: 'd1ed893b-b0b7-4b5e-8018-582d67b9ef97'
+}
+[2020-06-04T21:02:02.402] [INFO] default - diobrando 对房 5ed8b3674903ce1b62c1c861-5ed8b22f4903ce1b62c1c860 说: 
+[2020-06-04T21:02:02.410] [INFO] default - 自己的id jy-4MANOTE9vE9kZAAAA
+[2020-06-04T21:02:02.410] [INFO] default - 自己的id XiH_ZQoVRVGQFO4PAAAI
+[2020-06-04T21:02:46.686] [INFO] default - socket connect!
+[2020-06-04T21:03:03.597] [INFO] default - success
+[2020-06-04T21:03:03.618] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.61',
+  name: 'wangxuyang',
+  id: '5ed8b22f4903ce1b62c1c860',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36'
+}
+[2020-06-04T21:03:03.627] [INFO] default - socketRes null
+[2020-06-04T21:03:03.638] [INFO] default - addSocket model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: undefined,
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: true,
+    version: undefined,
+    getters: {},
+    _id: 5ed8f107c8fca8039a39f38b,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: {},
+      states: [Object],
+      stateNames: [Array],
+      map: [Function]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0,
+      [Symbol(kCapture)]: false
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.61',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
+    time: 2020-06-04T12:38:19.683Z,
+    _id: 5ed8f107c8fca8039a39f38b,
+    ip: '125.33.39.17',
+    socketId: 'o1QuJPVvIA-wRNG4AAAJ',
+    userId: 5ed8b22f4903ce1b62c1c860,
+    __v: 0
+  }
+}
+[2020-06-04T21:03:03.639] [INFO] default - socket login! {
+  name: 'wangxuyang',
+  id: '5ed8b22f4903ce1b62c1c860',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.61',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36'
+} o1QuJPVvIA-wRNG4AAAJ ::ffff:125.33.39.17 125.33.39.17
+[2020-06-04T21:03:03.641] [INFO] default - socket add room!
+[2020-06-04T21:03:03.641] [INFO] default - wangxuyang 加入了 room1
+[2020-06-04T21:03:03.643] [INFO] default - socket add room!
+[2020-06-04T21:03:03.643] [INFO] default - wangxuyang 加入了 room2
+[2020-06-04T21:03:25.528] [INFO] default - socket disconnect!
+[2020-06-04T21:03:25.528] [INFO] default - wangxuyang 退出了 room1
+[2020-06-04T21:03:25.529] [INFO] default - wangxuyang 退出了 room2
+[2020-06-04T21:03:34.915] [INFO] default - socket disconnect!
+[2020-06-04T21:03:34.915] [INFO] default - diobrando 退出了 room1
+[2020-06-04T21:03:34.915] [INFO] default - diobrando 退出了 room2
+[2020-06-04T21:13:25.376] [INFO] default - socket connect!
+[2020-06-04T21:13:36.683] [INFO] default - socket disconnect!
+[2020-06-04T21:14:33.911] [INFO] default - cache!!!!
+[2020-06-04T21:14:35.665] [INFO] default - socket connect!
+[2020-06-04T21:14:47.321] [INFO] default - socket disconnect!
+[2020-06-04T21:15:00.128] [INFO] default - socket connect!
+[2020-06-04T21:15:00.505] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.61',
+  name: 'wangxuyang',
+  id: '5ed8b22f4903ce1b62c1c860',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36'
+}
+[2020-06-04T21:15:00.513] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ed8f107c8fca8039a39f38b,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0,
+      [Symbol(kCapture)]: false
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.61',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
+    time: 2020-06-04T12:38:19.683Z,
+    __v: 0,
+    ip: '125.33.39.17',
+    socketId: 'o1QuJPVvIA-wRNG4AAAJ',
+    userId: 5ed8b22f4903ce1b62c1c860,
+    _id: 5ed8f107c8fca8039a39f38b
+  },
+  '$init': true
+}
+[2020-06-04T21:15:00.524] [INFO] default - updateRes
+[2020-06-04T21:15:00.524] [INFO] default - socket login! {
+  name: 'wangxuyang',
+  id: '5ed8b22f4903ce1b62c1c860',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.61',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36'
+} 0Th2XObplGrETWcsAAAB ::ffff:125.33.39.17 125.33.39.17
+[2020-06-04T21:15:00.648] [INFO] default - socket add room!
+[2020-06-04T21:15:00.649] [INFO] default - wangxuyang 加入了 room1
+[2020-06-04T21:15:00.650] [INFO] default - socket add room!
+[2020-06-04T21:15:00.651] [INFO] default - wangxuyang 加入了 room2
+[2020-06-04T21:15:08.374] [INFO] default - socket disconnect!
+[2020-06-04T21:15:08.375] [INFO] default - wangxuyang 退出了 room1
+[2020-06-04T21:15:08.375] [INFO] default - wangxuyang 退出了 room2
+[2020-06-04T21:17:46.671] [INFO] default - socket connect!
+[2020-06-04T21:17:47.051] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.61',
+  name: 'wangxuyang',
+  id: '5ed8b22f4903ce1b62c1c860',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36'
+}
+[2020-06-04T21:17:47.058] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ed8f107c8fca8039a39f38b,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0,
+      [Symbol(kCapture)]: false
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.61',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
+    time: 2020-06-04T12:38:19.683Z,
+    __v: 0,
+    ip: '125.33.39.17',
+    socketId: '0Th2XObplGrETWcsAAAB',
+    userId: 5ed8b22f4903ce1b62c1c860,
+    _id: 5ed8f107c8fca8039a39f38b
+  },
+  '$init': true
+}
+[2020-06-04T21:17:47.066] [INFO] default - updateRes
+[2020-06-04T21:17:47.066] [INFO] default - socket login! {
+  name: 'wangxuyang',
+  id: '5ed8b22f4903ce1b62c1c860',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.61',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36'
+} 3GbbtJdBJh2f2KnzAAAC ::ffff:125.33.39.17 125.33.39.17
+[2020-06-04T21:17:47.164] [INFO] default - socket add room!
+[2020-06-04T21:17:47.164] [INFO] default - wangxuyang 加入了 room1
+[2020-06-04T21:17:47.166] [INFO] default - socket add room!
+[2020-06-04T21:17:47.166] [INFO] default - wangxuyang 加入了 room2
+[2020-06-04T21:17:56.261] [INFO] default - socket disconnect!
+[2020-06-04T21:17:56.261] [INFO] default - wangxuyang 退出了 room1
+[2020-06-04T21:17:56.261] [INFO] default - wangxuyang 退出了 room2
+[2020-06-04T21:18:51.637] [INFO] default - socket connect!
+[2020-06-04T21:19:06.348] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/53.0.2785.116',
+  name: 'BKN',
+  id: '5ed8f4ca03a88361afd8fae6',
+  ua: 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36 QBCore/4.0.1301.400 QQBrowser/9.0.2524.400 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2875.116 Safari/537.36 NetType/WIFI MicroMessenger/7.0.5 WindowsWechat'
+}
+[2020-06-04T21:19:06.352] [INFO] default - socketRes null
+[2020-06-04T21:19:06.357] [INFO] default - addSocket model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: undefined,
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: true,
+    version: undefined,
+    getters: {},
+    _id: 5ed8f4ca03a88361afd8fae7,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: {},
+      states: [Object],
+      stateNames: [Array],
+      map: [Function]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0,
+      [Symbol(kCapture)]: false
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/53.0.2785.116',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36 QBCore/4.0.1301.400 QQBrowser/9.0.2524.400 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2875.116 Safari/537.36 NetType/WIFI MicroMessenger/7.0.5 WindowsWechat',
+    time: 2020-06-04T13:14:33.903Z,
+    _id: 5ed8f4ca03a88361afd8fae7,
+    ip: '221.216.36.161',
+    socketId: '9joTC2YF2xIyfwlRAAAD',
+    userId: 5ed8f4ca03a88361afd8fae6,
+    __v: 0
+  }
+}
+[2020-06-04T21:19:06.358] [INFO] default - socket login! {
+  name: 'BKN',
+  id: '5ed8f4ca03a88361afd8fae6',
+  browser: 'browser',
+  os: 'Chrome/53.0.2785.116',
+  ua: 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36 QBCore/4.0.1301.400 QQBrowser/9.0.2524.400 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2875.116 Safari/537.36 NetType/WIFI MicroMessenger/7.0.5 WindowsWechat'
+} 9joTC2YF2xIyfwlRAAAD ::ffff:221.216.36.161 221.216.36.161
+[2020-06-04T21:19:06.360] [INFO] default - socket add room!
+[2020-06-04T21:19:06.360] [INFO] default - BKN 加入了 room1
+[2020-06-04T21:19:06.365] [INFO] default - socket add room!
+[2020-06-04T21:19:06.366] [INFO] default - BKN 加入了 room2
+[2020-06-04T21:19:24.115] [INFO] default - socket connect!
+[2020-06-04T21:19:24.326] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.61',
+  name: 'wangxuyang',
+  id: '5ed8b22f4903ce1b62c1c860',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36'
+}
+[2020-06-04T21:19:24.346] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ed8f107c8fca8039a39f38b,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0,
+      [Symbol(kCapture)]: false
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.61',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
+    time: 2020-06-04T12:38:19.683Z,
+    __v: 0,
+    ip: '125.33.39.17',
+    socketId: '3GbbtJdBJh2f2KnzAAAC',
+    userId: 5ed8b22f4903ce1b62c1c860,
+    _id: 5ed8f107c8fca8039a39f38b
+  },
+  '$init': true
+}
+[2020-06-04T21:19:24.352] [INFO] default - updateRes
+[2020-06-04T21:19:24.352] [INFO] default - socket login! {
+  name: 'wangxuyang',
+  id: '5ed8b22f4903ce1b62c1c860',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.61',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36'
+} eaE8t0a-ANDHydhjAAAE ::ffff:125.33.39.17 125.33.39.17
+[2020-06-04T21:19:24.472] [INFO] default - socket add room!
+[2020-06-04T21:19:24.473] [INFO] default - wangxuyang 加入了 room1
+[2020-06-04T21:19:24.475] [INFO] default - socket add room!
+[2020-06-04T21:19:24.475] [INFO] default - wangxuyang 加入了 room2
+[2020-06-04T21:19:56.964] [INFO] default - socket loginout!
+[2020-06-04T21:19:56.964] [INFO] default - wangxuyang 退出了 room1
+[2020-06-04T21:19:56.965] [INFO] default - wangxuyang 退出了 room2
+[2020-06-04T21:20:04.273] [INFO] default - success
+[2020-06-04T21:20:04.301] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.61',
+  name: 'diobrando',
+  id: '5ed8b3674903ce1b62c1c861',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36'
+}
+[2020-06-04T21:20:04.306] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ed8e7121a8b3648ab9d1b72,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0,
+      [Symbol(kCapture)]: false
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.61',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
+    time: 2020-06-04T12:20:29.669Z,
+    __v: 0,
+    ip: '125.33.39.17',
+    socketId: 'jy-4MANOTE9vE9kZAAAA',
+    userId: 5ed8b3674903ce1b62c1c861,
+    _id: 5ed8e7121a8b3648ab9d1b72
+  },
+  '$init': true
+}
+[2020-06-04T21:20:04.311] [INFO] default - socket add room!
+[2020-06-04T21:20:04.311] [INFO] default - diobrando 加入了 room1
+[2020-06-04T21:20:04.312] [INFO] default - socket add room!
+[2020-06-04T21:20:04.313] [INFO] default - diobrando 加入了 room2
+[2020-06-04T21:20:14.679] [INFO] default - socket loginout!
+[2020-06-04T21:20:25.942] [INFO] default - success
+[2020-06-04T21:20:25.969] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.61',
+  name: 'wangxuyang',
+  id: '5ed8b22f4903ce1b62c1c860',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36'
+}
+[2020-06-04T21:20:25.973] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ed8f107c8fca8039a39f38b,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0,
+      [Symbol(kCapture)]: false
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.61',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
+    time: 2020-06-04T12:38:19.683Z,
+    __v: 0,
+    ip: '125.33.39.17',
+    socketId: 'eaE8t0a-ANDHydhjAAAE',
+    userId: 5ed8b22f4903ce1b62c1c860,
+    _id: 5ed8f107c8fca8039a39f38b
+  },
+  '$init': true
+}
+[2020-06-04T21:20:25.977] [INFO] default - updateRes
+[2020-06-04T21:20:25.977] [INFO] default - socket login! {
+  name: 'wangxuyang',
+  id: '5ed8b22f4903ce1b62c1c860',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.61',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36'
+} eaE8t0a-ANDHydhjAAAE ::ffff:125.33.39.17 125.33.39.17
+[2020-06-04T21:20:25.979] [INFO] default - socket add room!
+[2020-06-04T21:20:25.980] [INFO] default - wangxuyang 加入了 room1
+[2020-06-04T21:20:25.989] [INFO] default - socket add room!
+[2020-06-04T21:20:25.989] [INFO] default - wangxuyang 加入了 room2
+[2020-06-04T21:20:35.614] [INFO] default - socket message!
+[2020-06-04T21:20:35.614] [INFO] default - {
+  username: 'BKN',
+  src: 'static/files/634859avatar-369px-153-5.png',
+  img: '',
+  msg: '1111111',
+  to: false,
+  from: false,
+  roomType: 'group',
+  roomid: 'room1',
+  time: '2020-06-04T13:20:35.723Z',
+  type: 'text',
+  clientId: '9d29afcc-6051-4708-97c9-c6c17f5a0c54'
+}
+[2020-06-04T21:20:35.615] [INFO] default - BKN 对房 room1 说: 1111111
+[2020-06-04T21:26:31.884] [INFO] default - socket disconnect!
+[2020-06-04T21:26:31.884] [INFO] default - wangxuyang 退出了 room1
+[2020-06-04T21:26:31.885] [INFO] default - wangxuyang 退出了 room2
+[2020-06-04T21:26:33.067] [INFO] default - socket connect!
+[2020-06-04T21:26:33.197] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.61',
+  name: 'wangxuyang',
+  id: '5ed8b22f4903ce1b62c1c860',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36'
+}
+[2020-06-04T21:26:33.201] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ed8f107c8fca8039a39f38b,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0,
+      [Symbol(kCapture)]: false
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.61',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
+    time: 2020-06-04T12:38:19.683Z,
+    __v: 0,
+    ip: '125.33.39.17',
+    socketId: 'eaE8t0a-ANDHydhjAAAE',
+    userId: 5ed8b22f4903ce1b62c1c860,
+    _id: 5ed8f107c8fca8039a39f38b
+  },
+  '$init': true
+}
+[2020-06-04T21:26:33.204] [INFO] default - updateRes
+[2020-06-04T21:26:33.204] [INFO] default - socket login! {
+  name: 'wangxuyang',
+  id: '5ed8b22f4903ce1b62c1c860',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.61',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36'
+} QaUY7Z-yJ_gmHiM6AAAF ::ffff:125.33.39.17 125.33.39.17
+[2020-06-04T21:26:33.463] [INFO] default - socket add room!
+[2020-06-04T21:26:33.464] [INFO] default - wangxuyang 加入了 room1
+[2020-06-04T21:26:33.465] [INFO] default - socket add room!
+[2020-06-04T21:26:33.466] [INFO] default - wangxuyang 加入了 room2
+[2020-06-04T21:37:17.171] [INFO] default - RedisCache!!!!
+[2020-06-04T21:37:36.940] [INFO] default - cache!!!!
