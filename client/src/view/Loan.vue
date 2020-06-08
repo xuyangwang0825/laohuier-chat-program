@@ -13,7 +13,7 @@
     <div class="chat-list">
       <mu-paper>
         <mu-list>
-          <mu-sub-header>最近聊天记录</mu-sub-header>
+          <mu-sub-header>世界说</mu-sub-header>
           <mu-list-item avatar button :ripple="true" @click="chatwindow('room1')">
             <mu-list-item-action>
               <div class="avatar">
@@ -22,23 +22,8 @@
               </div>
             </mu-list-item-action>
             <mu-list-item-content>
-              <mu-list-item-title>聊天室1</mu-list-item-title>
+              <mu-list-item-title>公共聊天室</mu-list-item-title>
               <mu-list-item-sub-title>{{getTailMsg('room1')}}</mu-list-item-sub-title>
-            </mu-list-item-content>
-            <mu-list-item-action>
-              <mu-icon value="chat_bubble"></mu-icon>
-            </mu-list-item-action>
-          </mu-list-item>
-          <mu-list-item avatar button :ripple="true" @click="chatwindow('room2')">
-            <mu-list-item-action>
-              <div class="avatar">
-                <span class="tip" v-if="unRead2!==0">{{unRead2 > 99 ? '99+' : unRead2}}</span>
-                <Avatar :src="house2" size="small"></Avatar>
-              </div>
-            </mu-list-item-action>
-            <mu-list-item-content>
-              <mu-list-item-title>聊天室2</mu-list-item-title>
-              <mu-list-item-sub-title>{{getTailMsg('room2')}}</mu-list-item-sub-title>
             </mu-list-item-content>
             <mu-list-item-action>
               <mu-icon value="chat_bubble"></mu-icon>
@@ -46,20 +31,6 @@
           </mu-list-item>
         </mu-list>
         <mu-divider/>
-        <mu-list>
-          <mu-sub-header>客服</mu-sub-header>
-          <mu-list-item avatar button :ripple="true" @click="chatRobot('')">
-            <mu-list-item-action>
-              <mu-avatar class="avatar">
-                <img :src="robot">
-              </mu-avatar>
-            </mu-list-item-action>
-<!--            <mu-list-item-title>客服大白(微信群，作者联系方式，找我)</mu-list-item-title>-->
-            <mu-list-item-action>
-              <mu-icon value="chat_bubble"></mu-icon>
-            </mu-list-item-action>
-          </mu-list-item>
-        </mu-list>
         <mu-list>
           <mu-sub-header>好友</mu-sub-header>
           <mu-list-item avatar button :ripple="true" @click="chatSingle(item.friendId._id, item.friendId.name)" v-for="item in friendList" :key="item._id">

@@ -9,18 +9,6 @@
           </mu-list-item-action>
           <mu-list-item-title>修改头像</mu-list-item-title>
         </mu-list-item>
-        <mu-list-item button :ripple="true" @click="handleTips">
-          <mu-list-item-action>
-            <mu-icon value="inbox"></mu-icon>
-          </mu-list-item-action>
-          <mu-list-item-title>赞助一下</mu-list-item-title>
-        </mu-list-item>
-        <mu-list-item button :ripple="true" @click="handleGithub">
-          <mu-list-item-action>
-            <mu-icon value="grade"></mu-icon>
-          </mu-list-item-action>
-          <mu-list-item-title>github地址</mu-list-item-title>
-        </mu-list-item>
         <mu-list-item button :ripple="true" @click="rmLocalData">
           <mu-list-item-action>
             <mu-icon value="drafts"></mu-icon>
