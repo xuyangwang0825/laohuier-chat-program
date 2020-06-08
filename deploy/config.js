@@ -1,8 +1,8 @@
 module.exports = {
-    accessKey: '',
-    secretKey: '',  // key
-    zone: 'Zone_z2',
-    bucket: 'chat',   // bucket name
+    accessKey: 'QBbFgaVQOWr40yJg_h-zX-oSbXszvDjPxHniK1XD',
+    secretKey: 'KC8M93X-3sSeeuTv9GixX3VOfe2hsUbjVFlAyexU',  // key
+    zone: 'Zone_z1',
+    bucket: 'laohuier-chat',   // bucket name
     dir: 'webchat/',     //
-    url: '//s3.qiufengh.com/',
+    url: '//chatlibrary.diobrando0825.cn',
 }
