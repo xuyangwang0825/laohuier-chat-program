@@ -101,7 +101,7 @@ router.post('/uploadimg', upload.single('file'),  async (req, res, next) => {
         await qnUpload([staticUrl]);
         // 因为是服务器运行可以直接写脚本
         await cmder(`rm -rf ./static_temp/* `);
-        img =`//chatlibrary.diobrando0825.cn/webchat/` + filename;
+        img =`//s3.qiufengh.com/webchat/` + filename;
       } else {
         // 兼容windows
         fileTool.copySync('./static_temp', './dist/static/files');
@@ -136,7 +136,7 @@ router.post('/avatar', uploadAvatar.single('file'),  async (req, res, next) => {
         await qnUpload([staticUrl]);
         // 因为是服务器运行可以直接写脚本
         await cmder(`rm -rf ./static_temp/* `);
-        img =`//chatlibrary.diobrando0825.cn/webchat/` + filename;
+        img =`//s3.qiufengh.com/webchat/` + filename;
       } else {
         // 兼容windows
         fileTool.copySync('./static_temp', './dist/static/files');
