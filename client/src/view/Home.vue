@@ -166,6 +166,7 @@ export default {
   background: #fff;
   border-radius: 5px 5px 0 0;
   padding-top: 10px;
+  height 300px;
 }
 
 .logout {

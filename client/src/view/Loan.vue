@@ -12,9 +12,9 @@
     </div>
     <div class="chat-list">
       <mu-paper>
-        <mu-list>
-          <mu-sub-header>世界说</mu-sub-header>
-          <mu-list-item avatar button :ripple="true" @click="chatwindow('room1')">
+        <mu-list style="background: #eee">
+          <mu-sub-header>我的群聊</mu-sub-header>
+          <mu-list-item style="padding: 5px 0 5px 0;background: #fff;border-radius: 5px;margin: 0 10px 0 10px" avatar button :ripple="true" @click="chatwindow('room1')">
             <mu-list-item-action>
               <div class="avatar">
                 <span class="tip" v-if="unRead1!==0">{{unRead1 > 99 ? '99+' : unRead1}}</span>
@@ -30,10 +30,9 @@
             </mu-list-item-action>
           </mu-list-item>
         </mu-list>
-        <mu-divider/>
-        <mu-list>
+        <mu-list style="background: #eee">
           <mu-sub-header>好友</mu-sub-header>
-          <mu-list-item avatar button :ripple="true" @click="chatSingle(item.friendId._id, item.friendId.name)" v-for="item in friendList" :key="item._id">
+          <mu-list-item style="padding: 5px 0 5px 0;background: #fff;border-radius: 5px;margin: 0 10px 0 10px" avatar button :ripple="true" @click="chatSingle(item.friendId._id, item.friendId.name)" v-for="item in friendList" :key="item._id">
             <mu-list-item-action>
               <mu-avatar class="avatar">
                 <img :src="item.friendId.src">
@@ -156,6 +155,7 @@ export default {
 .chat-list {
   overflow-y: scroll;
   height: calc(100% - 133px);
+  background: #eee;
 }
 .avatar {
   position: relative;
