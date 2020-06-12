@@ -42,7 +42,7 @@
       </div>
       <mu-row gutter class="user-tools">
         <mu-col span="6">
-          <mu-button class="op" @click="letchat">发起聊天</mu-button>
+          <mu-button class="op" @click="chatSingle(lookUserInfo.id, lookUserInfo.name)">发起聊天</mu-button>
         </mu-col>
         <mu-col span="6">
           <mu-button class="op" color="primary" @click="handelAddFriend">添加好友</mu-button>
@@ -60,6 +60,7 @@ import UserHead from "@components/userHead";
 import Gender from "@components/Gender";
 import {queryString} from '@utils/queryString';
 import {mapGetters, mapState} from 'vuex';
+import { sort } from '@utils/tools';
 import Alert from '@components/Alert';
 export default {
   name: 'PersonDetail',
@@ -116,6 +117,11 @@ export default {
           content: res.data.data
         })
       }
+    },
+     async chatSingle(friendId, friendName) {
+      const userId = this.userInfo.id;
+      const roomID = sort(userId, friendId);
+      this.$router.push({ path: "/chat", query: { roomId: roomID, from: userId,to: friendId, type: 'single', friendName } });
     },
     goback() {
       this.$router.isBack = true;

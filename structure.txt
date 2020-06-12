@@ -1,0 +1,201 @@
+.
+├── API.md                                              #API文档
+├── LICENSE
+├── README.md                                           
+├── application.log                                     #日志
+├── client                                              #客户端
+│   ├── README.md                                       
+│   ├── babel.config.js
+│   ├── config
+│   │   └── client.js
+│   ├── dist
+│   │   ├── favicon.ico
+│   │   ├── index.html
+│   │   └── static
+│   │       ├── css
+│   │       │   ├── app.be856317.css
+│   │       │   └── chunk-vendors.755a9159.css
+│   │       └── js
+│   │           ├── app.5bf430ab.js
+│   │           ├── app.5bf430ab.js.map
+│   │           ├── chunk-vendors.78fdb0fd.js
+│   │           └── chunk-vendors.78fdb0fd.js.map
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── postcss.config.js
+│   ├── public
+│   │   ├── favicon.ico
+│   │   └── index.html
+│   ├── src
+│   │   ├── App.vue
+│   │   ├── BaseTransition.vue
+│   │   ├── BaseView.vue
+│   │   ├── TopTransition.vue
+│   │   ├── api
+│   │   │   ├── axios.js
+│   │   │   └── server.js
+│   │   ├── assets
+│   │   │   ├── bg.jpg
+│   │   │   ├── images.png
+│   │   │   └── �\205��\221\212.png
+│   │   ├── components
+│   │   │   ├── Alert
+│   │   │   │   ├── index.css
+│   │   │   │   └── index.js
+│   │   │   ├── Avatar
+│   │   │   │   └── index.vue
+│   │   │   ├── Bottom
+│   │   │   │   └── index.vue
+│   │   │   ├── Confirm
+│   │   │   │   ├── index.css
+│   │   │   │   └── index.js
+│   │   │   ├── Gender
+│   │   │   │   └── index.vue
+│   │   │   ├── Header
+│   │   │   │   └── index.vue
+│   │   │   ├── Message
+│   │   │   │   ├── Status.vue
+│   │   │   │   ├── index.styl
+│   │   │   │   └── index.vue
+│   │   │   ├── Toast
+│   │   │   │   ├── index.css
+│   │   │   │   └── index.js
+│   │   │   ├── arrow
+│   │   │   │   └── index.vue
+│   │   │   ├── input
+│   │   │   │   └── index.vue
+│   │   │   ├── input-sumbit
+│   │   │   │   └── index.vue
+│   │   │   ├── loading
+│   │   │   │   └── loading.js
+│   │   │   ├── loading-over
+│   │   │   │   ├── loading.css
+│   │   │   │   └── loading.js
+│   │   │   ├── photo-viewer
+│   │   │   │   ├── index.js
+│   │   │   │   └── vue-picture-preview.vue
+│   │   │   ├── searchBar
+│   │   │   │   └── index.vue
+│   │   │   ├── svg-modal
+│   │   │   │   ├── index.css
+│   │   │   │   ├── index.js
+│   │   │   │   ├── index.vue
+│   │   │   │   └── svg.js
+│   │   │   └── userHead
+│   │   │       └── index.vue
+│   │   ├── const
+│   │   │   └── index.js
+│   │   ├── directive
+│   │   │   └── imgSize.js
+│   │   ├── main.js
+│   │   ├── mixin
+│   │   │   └── login.vue
+│   │   ├── router
+│   │   │   └── index.js
+│   │   ├── router1.js
+│   │   ├── socket-handle.js
+│   │   ├── socket.js
+│   │   ├── store
+│   │   │   └── index.js
+│   │   ├── styles
+│   │   │   ├── default.css
+│   │   │   ├── main.styl
+│   │   │   └── reset.css
+│   │   ├── utils
+│   │   │   ├── cache.js
+│   │   │   ├── date.js
+│   │   │   ├── emoji.js
+│   │   │   ├── env.js
+│   │   │   ├── ios.js
+│   │   │   ├── localStorage.js
+│   │   │   ├── queryString.js
+│   │   │   └── tools.js
+│   │   └── view
+│   │       ├── Avatar.vue
+│   │       ├── Chat.styl
+│   │       ├── Chat.vue
+│   │       ├── GroupDetail.vue
+│   │       ├── GroupInfo.vue
+│   │       ├── GroupMember.vue
+│   │       ├── Home.vue
+│   │       ├── Loan.vue
+│   │       ├── PersonDetail.vue
+│   │       ├── Robot.vue
+│   │       ├── Search.vue
+│   │       ├── SearchResult.vue
+│   │       └── Signin
+│   │           ├── Login.vue
+│   │           ├── Register.vue
+│   │           └── template.vue
+│   ├── tests
+│   │   └── unit
+│   │       └── example.spec.js
+│   └── vue.config.js
+├── config
+│   ├── client.js
+│   ├── config.js
+│   ├── dev.env.js
+│   ├── index.js
+│   ├── jwt.js
+│   └── prod.env.js
+├── deploy
+│   ├── README.md
+│   ├── config.js
+│   ├── index.js
+│   ├── qiniu.js
+│   └── tx-upload.js
+├── dist
+│   ├── favicon.ico
+│   ├── index.html
+│   └── static
+│       ├── css
+│       │   ├── app.be856317.css
+│       │   └── chunk-vendors.755a9159.css
+│       ├── files
+│       │   ├── 1591689531579-iterm2.jpg
+│       │   ├── 1591718486103-fatty.png
+│       │   └── 634859avatar-369px-153-5.png
+│       └── js
+│           ├── app.5bf430ab.js
+│           ├── app.5bf430ab.js.map
+│           ├── chunk-vendors.78fdb0fd.js
+│           └── chunk-vendors.78fdb0fd.js.map
+├── index.html
+├── list.txt
+├── models
+│   ├── count.js
+│   ├── friend.js
+│   ├── message.js
+│   ├── search.js
+│   ├── socket.js
+│   └── user.js
+├── mongo.sh
+├── package-lock.json
+├── package.json
+├── pm2.json
+├── prod.server.js
+├── router
+│   ├── files.js
+│   ├── friends.js
+│   ├── messages.js
+│   ├── routes.js
+│   └── users.js
+├── schemas
+│   ├── count.js
+│   ├── friend.js
+│   ├── message.js
+│   ├── search.js
+│   ├── socket.js
+│   └── user.js
+├── server_modules
+│   ├── RedisCache.js
+│   ├── cache.js
+│   ├── log.js
+│   ├── mongodb.js
+│   └── websocket.js
+├── shark_pic
+│   ├── config.js
+│   └── index.js
+├── static_temp
+└── utils
+    └── cmd.js

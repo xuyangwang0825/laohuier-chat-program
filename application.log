@@ -1294,3 +1294,278 @@
 [2020-06-05T10:53:53.866] [INFO] default - 123 退出了 room1
 [2020-06-05T10:53:53.866] [INFO] default - 123 退出了 room2
 [2020-06-08T16:46:42.080] [INFO] default - cache!!!!
+[2020-06-12T17:32:36.205] [INFO] default - cache!!!!
+[2020-06-12T17:32:39.158] [INFO] default - socket connect!
+[2020-06-12T17:32:39.621] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-12T17:32:39.662] [INFO] default - socketRes null
+[2020-06-12T17:32:39.753] [INFO] default - addSocket model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: undefined,
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: true,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: {},
+      states: [Object],
+      stateNames: [Array],
+      map: [Function (anonymous)]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    ip: '127.0.0.1',
+    socketId: 'wtLKhakb2FgaQUazAAAA',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    __v: 0
+  }
+}
+[2020-06-12T17:32:39.754] [INFO] default - socket login! {
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} wtLKhakb2FgaQUazAAAA ::ffff:127.0.0.1 127.0.0.1
+[2020-06-12T17:32:39.969] [INFO] default - socket add room!
+[2020-06-12T17:32:39.970] [INFO] default - 456 加入了 room1
+[2020-06-12T17:32:39.970] [INFO] default - socket add room!
+[2020-06-12T17:32:39.971] [INFO] default - 456 加入了 room2
+[2020-06-12T17:32:43.511] [INFO] default - 192.168.31.143 - - "GET /static/files/1591246389505-fatty.png?width=211&height=200&imageView2/2/w/360 HTTP/1.1" 401 22 "http://192.168.31.143:9099/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+[2020-06-12T17:32:49.216] [INFO] default - 192.168.31.143 - - "GET /static/files/1591246389505-fatty.png?width=211&height=200&imageView2/2/w/360 HTTP/1.1" 401 22 "http://192.168.31.143:9099/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+[2020-06-12T17:33:01.286] [INFO] default - 192.168.31.143 - - "GET /static/files/1591246389505-fatty.png?width=211&height=200&imageView2/2/w/360 HTTP/1.1" 401 22 "http://192.168.31.143:9099/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+[2020-06-12T17:33:38.998] [INFO] default - 192.168.31.143 - - "GET /static/files/1591246389505-fatty.png?width=211&height=200&imageView2/2/w/360 HTTP/1.1" 401 22 "http://192.168.31.143:9099/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+[2020-06-12T17:34:10.127] [INFO] default - 192.168.31.143 - - "GET /static/files/1591246389505-fatty.png?width=211&height=200&imageView2/2/w/360 HTTP/1.1" 401 22 "http://192.168.31.143:9099/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+[2020-06-12T17:43:23.949] [INFO] default - 192.168.31.143 - - "GET /static/files/1591246389505-fatty.png?width=211&height=200&imageView2/2/w/360 HTTP/1.1" 401 22 "http://192.168.31.143:9099/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+[2020-06-12T17:44:38.417] [INFO] default - socket message!
+[2020-06-12T17:44:38.418] [INFO] default - {
+  username: '456',
+  src: '//s3.qiufengh.com/avatar/177.jpeg',
+  img: '',
+  msg: '123',
+  to: '5ed87eb03d4462682169324a',
+  from: '5ed4f4314256f1b1ff246fe7',
+  roomType: 'single',
+  roomid: '5ed87eb03d4462682169324a-5ed4f4314256f1b1ff246fe7',
+  time: '2020-06-12T09:44:38.413Z',
+  type: 'text',
+  clientId: 'e4e3c392-37c4-4f17-84a2-ef9ff461bfc7'
+}
+[2020-06-12T17:44:38.418] [INFO] default - 456 对房 5ed87eb03d4462682169324a-5ed4f4314256f1b1ff246fe7 说: 123
+[2020-06-12T17:44:38.434] [INFO] default - 自己的id lKhvtRP-Asyd3yAYAAAF
+[2020-06-12T17:44:38.435] [INFO] default - 自己的id wtLKhakb2FgaQUazAAAA
+[2020-06-12T17:59:28.271] [INFO] default - 192.168.31.143 - - "GET /static/files/1591246389505-fatty.png?width=211&height=200&imageView2/2/w/360 HTTP/1.1" 401 22 "http://192.168.31.143:9099/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+[2020-06-12T17:59:39.613] [INFO] default - 192.168.31.143 - - "GET /static/files/1591246389505-fatty.png?width=211&height=200&imageView2/2/w/360 HTTP/1.1" 401 22 "http://192.168.31.143:9099/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+[2020-06-12T18:00:37.992] [INFO] default - socket disconnect!
+[2020-06-12T18:00:37.992] [INFO] default - 456 退出了 room1
+[2020-06-12T18:00:37.993] [INFO] default - 456 退出了 room2
+[2020-06-12T18:00:38.272] [INFO] default - socket connect!
+[2020-06-12T18:01:14.025] [INFO] default - socket disconnect!
+[2020-06-12T18:01:14.291] [INFO] default - socket connect!
+[2020-06-12T18:02:23.373] [INFO] default - socket disconnect!
+[2020-06-12T18:02:23.590] [INFO] default - socket connect!
+[2020-06-12T18:02:30.363] [INFO] default - socket disconnect!
+[2020-06-12T18:02:30.507] [INFO] default - socket connect!
+[2020-06-12T18:02:38.672] [INFO] default - socket disconnect!
+[2020-06-12T18:02:39.073] [INFO] default - socket connect!
+[2020-06-12T18:02:46.303] [INFO] default - socket disconnect!
+[2020-06-12T18:02:46.614] [INFO] default - socket connect!
+[2020-06-12T18:02:47.006] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-12T18:02:47.028] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'wtLKhakb2FgaQUazAAAA',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    _id: 5ee34bb7dcdc86406dd01f1a
+  },
+  '$init': true
+}
+[2020-06-12T18:02:47.116] [INFO] default - updateRes
+[2020-06-12T18:02:47.117] [INFO] default - socket login! {
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} L38jVf4ckV1fcuMuAAAG ::ffff:127.0.0.1 127.0.0.1
+[2020-06-12T18:02:47.228] [INFO] default - socket add room!
+[2020-06-12T18:02:47.229] [INFO] default - 456 加入了 room1
+[2020-06-12T18:02:47.230] [INFO] default - socket add room!
+[2020-06-12T18:02:47.232] [INFO] default - 456 加入了 room2
+[2020-06-12T18:02:48.199] [INFO] default - 192.168.31.143 - - "GET /static/files/1591246389505-fatty.png?width=211&height=200&imageView2/2/w/360 HTTP/1.1" 401 22 "http://192.168.31.143:9099/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+[2020-06-12T18:02:50.356] [INFO] default - 192.168.31.143 - - "GET /static/files/1591246389505-fatty.png?width=211&height=200&imageView2/2/w/360 HTTP/1.1" 401 22 "http://192.168.31.143:9099/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+[2020-06-12T18:02:58.374] [INFO] default - 192.168.31.143 - - "GET /static/files/1591246389505-fatty.png?width=211&height=200&imageView2/2/w/360 HTTP/1.1" 401 22 "http://192.168.31.143:9099/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+[2020-06-12T18:03:13.502] [INFO] default - 192.168.31.143 - - "GET /static/files/1591246389505-fatty.png?width=211&height=200&imageView2/2/w/360 HTTP/1.1" 401 22 "http://192.168.31.143:9099/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+[2020-06-12T18:03:52.146] [INFO] default - 192.168.31.143 - - "GET /static/files/1591246389505-fatty.png?width=211&height=200&imageView2/2/w/360 HTTP/1.1" 401 22 "http://192.168.31.143:9099/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+[2020-06-12T18:04:34.838] [INFO] default - 192.168.31.143 - - "GET /static/files/1591246389505-fatty.png?width=211&height=200&imageView2/2/w/360 HTTP/1.1" 401 22 "http://192.168.31.143:9099/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+[2020-06-12T18:07:27.760] [INFO] default - socket message!
+[2020-06-12T18:07:27.761] [INFO] default - {
+  username: '456',
+  src: '//s3.qiufengh.com/avatar/177.jpeg',
+  img: '',
+  msg: '12313123',
+  to: '5ed87eb03d4462682169324a',
+  from: '5ed4f4314256f1b1ff246fe7',
+  roomType: 'single',
+  roomid: '5ed87eb03d4462682169324a-5ed4f4314256f1b1ff246fe7',
+  time: '2020-06-12T10:07:27.757Z',
+  type: 'text',
+  clientId: 'efdc8777-12df-46a9-b0e2-72e8c67c1d3e'
+}
+[2020-06-12T18:07:27.761] [INFO] default - 456 对房 5ed87eb03d4462682169324a-5ed4f4314256f1b1ff246fe7 说: 12313123
+[2020-06-12T18:07:27.798] [INFO] default - 自己的id lKhvtRP-Asyd3yAYAAAF
+[2020-06-12T18:07:27.798] [INFO] default - 自己的id L38jVf4ckV1fcuMuAAAG
+[2020-06-12T18:07:43.186] [INFO] default - 192.168.31.143 - - "GET /static/files/1591246389505-fatty.png?width=211&height=200&imageView2/2/w/360 HTTP/1.1" 401 22 "http://192.168.31.143:9099/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+[2020-06-12T18:08:52.635] [INFO] default - cache!!!!
+[2020-06-12T18:08:53.108] [INFO] default - socket connect!
+[2020-06-12T18:08:53.147] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-12T18:08:53.157] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'L38jVf4ckV1fcuMuAAAG',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    _id: 5ee34bb7dcdc86406dd01f1a
+  },
+  '$init': true
+}
+[2020-06-12T18:08:53.162] [INFO] default - updateRes
+[2020-06-12T18:08:53.162] [INFO] default - socket login! {
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} jX2hNBS6GMCNjljWAAAA ::ffff:127.0.0.1 127.0.0.1
+[2020-06-12T18:08:54.022] [INFO] default - socket add room!
+[2020-06-12T18:08:54.023] [INFO] default - 456 加入了 room1
+[2020-06-12T18:08:54.024] [INFO] default - socket add room!
+[2020-06-12T18:08:54.025] [INFO] default - 456 加入了 room2
+[2020-06-12T18:09:06.775] [INFO] default - 192.168.31.143 - - "GET /static/files/1591246389505-fatty.png?width=211&height=200&imageView2/2/w/360 HTTP/1.1" 401 22 "http://192.168.31.143:9099/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+[2020-06-12T18:09:09.114] [INFO] default - 192.168.31.143 - - "GET /static/files/1591246389505-fatty.png?width=211&height=200&imageView2/2/w/360 HTTP/1.1" 401 22 "http://192.168.31.143:9099/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+[2020-06-12T18:09:10.647] [INFO] default - 192.168.31.143 - - "GET /static/files/1591246389505-fatty.png?width=211&height=200&imageView2/2/w/360 HTTP/1.1" 401 22 "http://192.168.31.143:9099/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+[2020-06-12T18:09:16.109] [INFO] default - 192.168.31.143 - - "GET /static/files/1591246389505-fatty.png?width=211&height=200&imageView2/2/w/360 HTTP/1.1" 401 22 "http://192.168.31.143:9099/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+[2020-06-12T18:09:18.329] [INFO] default - 192.168.31.143 - - "GET /static/files/1591246389505-fatty.png?width=211&height=200&imageView2/2/w/360 HTTP/1.1" 401 22 "http://192.168.31.143:9099/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+[2020-06-12T18:09:22.783] [INFO] default - 192.168.31.143 - - "GET /static/files/1591246389505-fatty.png?width=211&height=200&imageView2/2/w/360 HTTP/1.1" 401 22 "http://192.168.31.143:9099/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+[2020-06-12T18:09:40.990] [INFO] default - 192.168.31.143 - - "GET /static/files/1591246389505-fatty.png?width=211&height=200&imageView2/2/w/360 HTTP/1.1" 401 22 "http://192.168.31.143:9099/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+[2020-06-12T18:09:45.663] [INFO] default - socket disconnect!
+[2020-06-12T18:09:45.663] [INFO] default - 456 退出了 room1
+[2020-06-12T18:09:45.663] [INFO] default - 456 退出了 room2
