@@ -1,6 +1,6 @@
 <template>
   <div>
-    <SearchBar @change="change" @cancel="cancel"></SearchBar>
+    <SearchBarUser @change="change" @cancel="cancel"></SearchBarUser>
     <mu-list>
       <mu-sub-header v-if="searchUserList.length === 0">暂无查询结果</mu-sub-header>
       <mu-list-item avatar button :ripple="false" v-for="item in searchUserList" :key="item._id" @click="lookInfo(item)">
@@ -20,14 +20,14 @@
 
 <script>
 import { mapState } from "vuex";
-import SearchBar from "@components/searchBar";
+import SearchBarUser from "@components/searchBarUser";
 import debounce from 'lodash/debounce';
 
 export default {
-  name: 'SearchResult',
+  name: 'SearchResultUser',
 
   components: {
-    SearchBar
+    SearchBarUser
   },
   data () {
     return {

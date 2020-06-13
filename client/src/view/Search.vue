@@ -1,6 +1,7 @@
 <template>
   <div>
-    <SearchBar disabled="true" @submit="handleSearch"></SearchBar>
+    <SearchBarUser disabled="true" @submit="handleSearchUser"></SearchBarUser>
+    <SearchBarGroup disabled="true" @submit="handleSearchGroup"></SearchBarGroup>
     <div>
       <mu-sub-header>热门用户</mu-sub-header>
       <mu-chip class="list-chip" :color="item.color" v-for="item in mapHotList" :key="item._id" @click="lookInfo(item)">
@@ -22,7 +23,8 @@ import Confirm from "@components/Confirm";
 import Alert from "@components/Alert";
 import Bottom from "@components/Bottom";
 import UserHead from "@components/userHead";
-import SearchBar from "@components/searchBar";
+import SearchBarUser from "@components/searchBarUser";
+import SearchBarGroup from "@components/searchBarGroup";
 const randomColor = require('randomcolor');
 import { sort } from '@utils/tools';
 
@@ -43,11 +45,14 @@ export default {
     lookInfo(item) {
       this.$router.push({ path: "/persionDetail", query: { id: item._id } });
     },
-    handleSearch() {
+    handleSearchUser() {
 
-      this.$router.push("/searchResult");
+      this.$router.push("/searchResultUser");
     },
+    handleSearchGroup() {
 
+      this.$router.push("/searchResultGroup");
+    },
   },
   computed: {
     ...mapState([
@@ -65,7 +70,8 @@ export default {
   components: {
     Bottom,
     UserHead,
-    SearchBar
+    SearchBarUser,
+    SearchBarGroup
   }
 };
 </script>
