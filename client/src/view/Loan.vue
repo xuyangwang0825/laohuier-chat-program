@@ -13,7 +13,7 @@
     <div class="chat-list">
       <mu-paper>
         <mu-list style="background: #eee">
-          <mu-sub-header>我的群聊</mu-sub-header>
+          <mu-sub-header>世界说</mu-sub-header>
           <mu-list-item style="padding: 5px 0 5px 0;background: #fff;border-radius: 5px;margin: 0 10px 0 10px" avatar button :ripple="true" @click="chatwindow('room1')">
             <mu-list-item-action>
               <div class="avatar">
@@ -24,6 +24,24 @@
             <mu-list-item-content>
               <mu-list-item-title>公共聊天室</mu-list-item-title>
               <mu-list-item-sub-title>{{getTailMsg('room1')}}</mu-list-item-sub-title>
+            </mu-list-item-content>
+            <mu-list-item-action>
+              <mu-icon value="chat_bubble"></mu-icon>
+            </mu-list-item-action>
+          </mu-list-item>
+        </mu-list>
+        <mu-list style="background: #eee">
+          <mu-sub-header>我的群聊</mu-sub-header>
+          <mu-list-item style="padding: 5px 0 5px 0;background: #fff;border-radius: 5px;margin: 0 10px 0 10px" avatar button :ripple="true" @click="chatwindow(item.groupId._id)" v-for="item in groupList" :key="item._id">
+            <mu-list-item-action>
+              <div class="avatar">
+                <span class="tip" v-if="unRead1!==0">{{unRead1 > 99 ? '99+' : unRead1}}</span>
+                <Avatar :src="house1" size="small"></Avatar>
+              </div>
+            </mu-list-item-action>
+            <mu-list-item-content>
+              <mu-list-item-title>公共聊天室</mu-list-item-title>
+              <mu-list-item-sub-title>{{getTailMsg(item.groupId._id)}}</mu-list-item-sub-title>
             </mu-list-item-content>
             <mu-list-item-action>
               <mu-icon value="chat_bubble"></mu-icon>
@@ -135,7 +153,8 @@ export default {
       unRead1: state => state.unRead.room1,
       unRead2: state => state.unRead.room2,
       userInfo: state => state.userInfo,
-      friendList: state => state.friendList
+      friendList: state => state.friendList,
+      groupList: state => state.groupList
     })
   },
   components: {

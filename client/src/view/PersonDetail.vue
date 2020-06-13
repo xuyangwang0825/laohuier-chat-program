@@ -18,7 +18,7 @@
             </mu-list-item-title>
             <mu-list-item-action class="group-info-detail">
               <!-- <mu-switch v-model="events" readonly></mu-switch> -->
-              2019-10-23
+              {{new Date()}}
             </mu-list-item-action>
           </mu-list-item>
           <mu-list-item button :ripple="false" @click="calls = !calls">
@@ -35,7 +35,7 @@
               性别
             </mu-list-item-title>
             <mu-list-item-action>
-              <Gender sex=""></Gender>
+              <Gender sex="nv"></Gender>
             </mu-list-item-action>
           </mu-list-item>
         </mu-list>

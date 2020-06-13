@@ -9,7 +9,7 @@
       ></Header>
     <div class="all-chat">
       <div class="group-avatar group-list">
-        <Avatar v-for="(item,index) in Object.keys(roomUsers[roomid] || {}).slice(0, 18)" class="list-avatar" :key="index" :src="roomUsers[roomid][item].src"></Avatar>
+        <Avatar v-for="(item,index) in Object.keys(roomUsers[roomid] || {}).slice(0, 3)" class="list-avatar" :key="index" :src="roomUsers[roomid][item].src"></Avatar>
         <div class="group-more" v-show="Object.keys(allUser).length > 18" @click="gotoMore">查看更多群成员</div>
       </div>
       <div class="group-list">

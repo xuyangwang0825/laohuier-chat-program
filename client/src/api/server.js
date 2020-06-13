@@ -20,7 +20,10 @@ const Service = {
   getvipuser: data => Axios.get('/api/user/vipuser', {
     params: data
   }),
-  getSearch: data => Axios.get('/api/user/search', {
+  getSearchUser: data => Axios.get('/api/user/searchUser', {
+    params: data
+  }),
+  getSearchGroup: data => Axios.get('/api/user/searchGroup', {
     params: data
   }),
   // 机器人
@@ -43,6 +46,8 @@ const Service = {
   postAddFriend: data => Axios.post('/api/friend/add', data),
   // 查询好友李彪
   postListFriend: data => Axios.post('/api/friend/list', data),
+  // 查询群组
+  postListGroup: data => Axios.post('/api/group/list', data),
   // 请求公告
   getNotice: () => Axios.get('https://s3.qiufengh.com/config/notice-config.js')
 };

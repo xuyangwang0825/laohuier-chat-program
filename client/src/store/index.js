@@ -26,9 +26,11 @@ const store = new Vuex.Store({
     friendList: [],
     isDiscount: false,
     isLogin: false,
+    // 群组列表
+    groupList: [],
     // 存放聊天记录 key - []
-    roomdetail: {},
-    roomUsers: {},
+    roomdetail: {}, 
+    roomUsers: {}, // 在线user列表
     // 存放机器人开场白
     robotmsg: [
     {
@@ -68,6 +70,7 @@ const store = new Vuex.Store({
     hotUserList: [],
     vipUserList: [],
     searchUserList: [],
+    searchGroupList: [],
     // svg
     svgmodal: null,
     // 是否启动tab
@@ -180,24 +183,36 @@ const store = new Vuex.Store({
     setFriendList(state, data) {
       state.friendList = data;
     },
+    setGroupList(state, data) {
+      state.groupList = data;
+    },
     sethotUserList(state, data) {
       state.hotUserList = data;
     },
     setvipUserList(state, data) {
       state.vipUserList = data;
     },
-    setSearchList(state, data) {
+    setSearchUserList(state, data) {
       state.searchUserList = data;
+    },
+    setSearchGroupList(state, data) {
+      state.searchGroupList = data;
     },
     setAllmsg(state, data) {
       state.roomdetail = data;
     }
   },
   actions: {
-    async getSearch({state, commit}, data) {
-      const res = await url.getSearch(data);
+    async getSearchUser({state, commit}, data) {
+      const res = await url.getSearchUser(data);
       if(res.data.errno === 0) {
-        commit('setSearchList', res.data.data)
+        commit('setSearchUserList', res.data.data)
+      }
+    },
+    async getSearchGroup({state, commit}, data) {
+      const res = await url.getSearchGroup(data);
+      if(res.data.errno === 0) {
+        commit('setSearchGroupList', res.data.data)
       }
     },
     async getvipuser({state, commit}, data) {
@@ -279,6 +294,12 @@ const store = new Vuex.Store({
       const res = await url.postListFriend(data);
       if(res.data.errno === 0) {
         commit('setFriendList', res.data.data);
+      }
+    },
+    async postListGroup({state, commit}, data) {
+      const res = await url.postListGroup(data);
+      if(res.data.errno === 0) {
+        commit('setGroupList', res.data.data);
       }
     },
     async getRoomHistory({state, commit}, data) {

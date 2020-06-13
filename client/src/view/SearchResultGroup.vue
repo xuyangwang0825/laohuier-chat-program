@@ -2,8 +2,8 @@
   <div>
     <SearchBarGroup @change="change" @cancel="cancel"></SearchBarGroup>
     <mu-list>
-      <mu-sub-header v-if="searchUserList.length === 0">暂无查询结果</mu-sub-header>
-      <mu-list-item avatar button :ripple="false" v-for="item in searchUserList" :key="item._id" @click="lookInfo(item)">
+      <mu-sub-header v-if="searchGroupList.length === 0">暂无查询结果</mu-sub-header>
+      <mu-list-item avatar button :ripple="false" v-for="item in searchGroupList" :key="item._id" @click="lookInfo(item)">
         <mu-list-item-action>
           <mu-avatar>
             <img :src="item.src">
@@ -36,7 +36,7 @@ export default {
 
   computed: {
     ...mapState([
-      'searchUserList'
+      'searchGroupList'
     ])
   },
 
@@ -55,7 +55,7 @@ export default {
       this.$router.goBack();
     },
     lookInfo(item) {
-      this.$router.push({ path: "/persionDetail", query: { id: item.name } });
+      this.$router.push({ path: "/groupDetail", query: { roomId: item.roomid}});
     }
   }
 }
