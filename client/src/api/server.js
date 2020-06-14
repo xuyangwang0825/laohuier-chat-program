@@ -42,6 +42,9 @@ const Service = {
   getUserInfo: data => Axios.get('/api/user/getInfo', {
     params: data
   }),
+  getRoomInfo: data => Axios.get('/api/room/getInfo', {
+    params: data
+  }),
   // 添加好友
   postAddFriend: data => Axios.post('/api/friend/add', data),
   // 添加群组

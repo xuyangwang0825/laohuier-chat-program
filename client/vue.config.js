@@ -14,7 +14,7 @@ module.exports = {
             .set('@api',resolve('src/api'))
     },
     assetsDir: './static/',
-    publicPath: process.env.CDN ? '//s3.qiufengh.com/webchat' : '',
+    publicPath: process.env.CDN ? '//chat.diobrando0825.cn/' : '',
     devServer: {
       port: 9099,
       disableHostCheck: true,

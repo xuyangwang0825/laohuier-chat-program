@@ -22,6 +22,8 @@ const store = new Vuex.Store({
     },
     lookUserInfo: {
     },
+    lookRoomInfo: {
+    },
     // 朋友列表
     friendList: [],
     isDiscount: false,
@@ -180,6 +182,9 @@ const store = new Vuex.Store({
     setLookUserInfo(state, data) {
       state.lookUserInfo = data;
     },
+    setLookRoomInfo(state, data) {
+      state.lookRoomInfo = data;
+    },
     setFriendList(state, data) {
       state.friendList = data;
     },
@@ -292,6 +297,12 @@ const store = new Vuex.Store({
       const res = await url.getUserInfo(data);
       if(res.data.errno === 0) {
         commit('setLookUserInfo', res.data.data);
+      }
+    },
+    async getRoomInfo({state, commit}, data) {
+      const res = await url.getRoomInfo(data);
+      if(res.data.errno === 0) {
+        commit('setLookRoomInfo', res.data.data);
       }
     },
     async postListFriend({state, commit}, data) {

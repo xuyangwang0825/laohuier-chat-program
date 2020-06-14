@@ -48,6 +48,7 @@ app.use(function(req, res, next) {
     '/api/group/list',
     '/api/group/add',
     '/api/user/getInfo',
+    '/api/room/getInfo',
     '/api/user/searchUser',
     '/api/room/searchGroup',
     '/api/message/v2/history',

@@ -14,7 +14,7 @@
       </div>   
       <mu-row gutter class="user-tools">
         <mu-col span="6">
-          <mu-button class="op" @click="chatSingle(lookUserInfo.id, lookUserInfo.name)">发起聊天</mu-button>
+          <mu-button class="op" @click="chatwindow(lookRoomInfo._id, lookRoomInfo.name)">发起聊天</mu-button>
         </mu-col>
         <mu-col span="6">
           <mu-button class="op" color="primary" @click="handelAddGroup">加入群聊</mu-button>
@@ -26,6 +26,7 @@
 
 <script>
 import Header from "@components/Header";
+import Confirm from "@components/Confirm";
 import Avatar from "@components/Avatar";
 import {mapGetters, mapState} from 'vuex';
 import Alert from '@components/Alert';
@@ -57,13 +58,18 @@ export default {
   computed: {
     ...mapState([
       'roomUsers',
-      'userInfo'
+      'userInfo',
+      'lookRoomInfo'
     ]),
   },
 
   async mounted() {
     const roomId = queryString(window.location.href, 'roomId');
     this.roomid = roomId;
+    const id = roomId
+    await this.$store.dispatch('getUserInfo', {
+      id,
+    });
     // const allUser = {}
     // let i = 0;
     // while(i < 180) {
@@ -92,6 +98,19 @@ export default {
           content: res.data.data
         })
       }
+    },
+    async chatwindow(roomID, roomName) {
+      if (!this.userInfo.token) {
+        const res = await Confirm({
+          title: "提示",
+          content: "聊天请先登录，但是你可以查看聊天记录哦~"
+        });
+        if (res === "submit") {
+          this.$router.push({ path: "login" });
+        }
+        return;
+      }
+      this.$router.push({ path: "/chat", query: { roomId: roomID, type: 'group', roomName} });
     },
     goback() {
       this.$router.isBack = true;
