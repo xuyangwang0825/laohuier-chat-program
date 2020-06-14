@@ -46,6 +46,7 @@ app.use(function(req, res, next) {
     '/api/friend/list',
     '/api/user/vipuser',
     '/api/group/list',
+    '/api/group/add',
     '/api/user/getInfo',
     '/api/user/searchUser',
     '/api/room/searchGroup',

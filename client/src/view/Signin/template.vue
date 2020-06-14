@@ -40,6 +40,7 @@ import ios from '@utils/ios';
 import Arrow from '@components/arrow';
 import Input from '@components/input';
 import { handleInit } from '../../socket-handle';
+import store from '../../store';
 
 export default {
   name: 'login-template-component',
@@ -87,11 +88,13 @@ export default {
             token: res.data.token,
           }
           this.$store.commit("setUserInfo", userInfo);
+          this.$store.dispatch('getSearchGroup', { name: userInfo.id });
+          const roomList = store.state.groupList;
           await handleInit({
             name: userInfo.userid,
             id: userInfo.id,
             src: userInfo.src,
-            roomList: ['room1', 'room2','5ee58faac2ddf87c56b191d5']
+            roomList: roomList
           })
           this.$router.push({ path: "/" });
         } else {

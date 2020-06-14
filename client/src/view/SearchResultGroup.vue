@@ -55,7 +55,8 @@ export default {
       this.$router.goBack();
     },
     lookInfo(item) {
-      this.$router.push({ path: "/groupDetail", query: { roomId: item.roomid}});
+      
+      this.$router.push({ path: "/groupInfo", query: {roomId: item._id}});
     }
   }
 }

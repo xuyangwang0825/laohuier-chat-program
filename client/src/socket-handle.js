@@ -10,6 +10,22 @@ export async function handleInit({
 }) {
     // 此处逻辑需要抽离复用
   socket.emit('login', {name, id, ...env});
+  
+  roomList.forEach(item => {
+    const obj = {
+      name,
+      src,
+      roomid: item.groupId._id,
+    };
+    socket.emit('room', obj);
+  })
+  const obj = {
+    name,
+    src,
+    roomid: 'room1',
+  };
+  socket.emit('room', obj);
+  /*
   roomList.forEach(item => {
     const obj = {
       name,
@@ -18,5 +34,6 @@ export async function handleInit({
     };
     socket.emit('room', obj);
   })
+  */
   await store.dispatch('getRoomHistory', { selfId: id })
 }

@@ -8,6 +8,7 @@ import Login from '../view/Signin/Login';
 import Chat from '../view/Chat';
 import Avatar from '../view/Avatar';
 import GroupDetail from '../view/GroupDetail';
+import GroupInfo from '../view/GroupInfo';
 import PersonDetail from '../view/PersonDetail';
 import GroupMember from '../view/GroupMember';
 import Search from '../view/Search';
@@ -50,6 +51,11 @@ const router = new Router({
           path: '/groupDetail',
           name: 'GroupDetail',
           component: GroupDetail
+        },
+        {
+          path: '/groupInfo',
+          name: 'GroupInfo',
+          component: GroupInfo
         },
         {
           path: '/groupMember',

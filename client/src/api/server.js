@@ -44,6 +44,8 @@ const Service = {
   }),
   // 添加好友
   postAddFriend: data => Axios.post('/api/friend/add', data),
+  // 添加群组
+  postAddGroup: data => Axios.post('/api/group/add', data),
   // 查询好友李彪
   postListFriend: data => Axios.post('/api/friend/list', data),
   // 查询群组

@@ -231,6 +231,10 @@ const store = new Vuex.Store({
       const res = await url.postAddFriend(data);
       return res;
     },
+    async addGroup({}, data) {
+      const res = await url.postAddGroup(data);
+      return res;
+    },
     async uploadAvatar({}, data) {
       const res = await url.postUploadAvatar(data);
       return res.data;

@@ -70,6 +70,8 @@ socket.on('connect', async () => {
   const userName = store.state.userInfo.userid;
   const src = store.state.userInfo.src;
   const userId = store.state.userInfo.id;
+  await store.dispatch('getSearchGroup', { name: userId });
+  const roomList = store.state.groupList;
   if (userId) {
     // 此处逻辑需要抽离复用
     await handleInit({
@@ -79,7 +81,7 @@ socket.on('connect', async () => {
       id: userId,
       src,
       env,
-      roomList: ['room1', 'room2','5ee58faac2ddf87c56b191d5']
+      roomList: roomList/*['room1','room2','5ee58faac2ddf87c56b191d5']*/
     })
   }
 });
