@@ -77,7 +77,7 @@ export default {
   },
 
   methods: {
-    async handelAddFriend() {
+    async handelAddGroup() {
       const res = await this.$store.dispatch('addGroup', {
         selfId: this.userInfo.id,
         groupId: this.roomid

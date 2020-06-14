@@ -19077,3 +19077,295 @@
   os: 'Chrome/83.0.4103.97',
   ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
 } NwBXft0bT1bK_zdgAAAF ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T17:05:19.271] [INFO] default - socket disconnect!
+[2020-06-14T17:05:19.271] [INFO] default - 123 退出了 room1
+[2020-06-14T17:05:20.064] [INFO] default - socket connect!
+[2020-06-14T17:05:20.510] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '123',
+  id: '5ed4f3ed4256f1b1ff246fe5',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T17:05:20.515] [INFO] default - socket add room!
+[2020-06-14T17:05:20.516] [INFO] default - 123 加入了 5ee58faac2ddf87c56b191d5
+[2020-06-14T17:05:20.516] [INFO] default - socket add room!
+[2020-06-14T17:05:20.517] [INFO] default - 123 加入了 room1
+[2020-06-14T17:05:20.543] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee4e7765df4344e0def3124,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-13T13:16:36.212Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'NwBXft0bT1bK_zdgAAAF',
+    userId: 5ed4f3ed4256f1b1ff246fe5,
+    _id: 5ee4e7765df4344e0def3124
+  },
+  '$init': true
+}
+[2020-06-14T17:05:20.557] [INFO] default - updateRes
+[2020-06-14T17:05:20.558] [INFO] default - socket login! {
+  name: '123',
+  id: '5ed4f3ed4256f1b1ff246fe5',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} ptmX8JNRzZyeFynAAAAG ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T17:07:55.303] [INFO] default - cache!!!!
+[2020-06-14T17:07:56.831] [INFO] default - socket connect!
+[2020-06-14T17:07:56.964] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '123',
+  id: '5ed4f3ed4256f1b1ff246fe5',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T17:07:56.966] [INFO] default - socket add room!
+[2020-06-14T17:07:56.967] [INFO] default - 123 加入了 5ee58faac2ddf87c56b191d5
+[2020-06-14T17:07:56.969] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee4e7765df4344e0def3124,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-13T13:16:36.212Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'ptmX8JNRzZyeFynAAAAG',
+    userId: 5ed4f3ed4256f1b1ff246fe5,
+    _id: 5ee4e7765df4344e0def3124
+  },
+  '$init': true
+}
+[2020-06-14T17:07:56.976] [INFO] default - socket add room!
+[2020-06-14T17:07:56.976] [INFO] default - 123 加入了 room1
+[2020-06-14T17:07:56.977] [INFO] default - updateRes
+[2020-06-14T17:07:56.977] [INFO] default - socket login! {
+  name: '123',
+  id: '5ed4f3ed4256f1b1ff246fe5',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} lyheMUP4Sm_apJNOAAAA ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T17:08:35.538] [INFO] default - cache!!!!
+[2020-06-14T17:08:35.714] [INFO] default - socket connect!
+[2020-06-14T17:08:35.858] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '123',
+  id: '5ed4f3ed4256f1b1ff246fe5',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T17:08:35.873] [INFO] default - socket add room!
+[2020-06-14T17:08:35.874] [INFO] default - 123 加入了 5ee58faac2ddf87c56b191d5
+[2020-06-14T17:08:35.875] [INFO] default - socket add room!
+[2020-06-14T17:08:35.876] [INFO] default - 123 加入了 room1
+[2020-06-14T17:08:35.883] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee4e7765df4344e0def3124,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-13T13:16:36.212Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'lyheMUP4Sm_apJNOAAAA',
+    userId: 5ed4f3ed4256f1b1ff246fe5,
+    _id: 5ee4e7765df4344e0def3124
+  },
+  '$init': true
+}
+[2020-06-14T17:08:35.904] [INFO] default - updateRes
+[2020-06-14T17:08:35.905] [INFO] default - socket login! {
+  name: '123',
+  id: '5ed4f3ed4256f1b1ff246fe5',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} Y-vGD76TiMpC4yAxAAAA ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T17:08:45.087] [INFO] default - socket disconnect!
+[2020-06-14T17:08:45.087] [INFO] default - 123 退出了 room1
+[2020-06-14T17:08:45.088] [INFO] default - 123 退出了 5ee58faac2ddf87c56b191d5
+[2020-06-14T17:08:46.046] [INFO] default - socket connect!
+[2020-06-14T17:08:46.353] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '123',
+  id: '5ed4f3ed4256f1b1ff246fe5',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T17:08:46.360] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee4e7765df4344e0def3124,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-13T13:16:36.212Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'Y-vGD76TiMpC4yAxAAAA',
+    userId: 5ed4f3ed4256f1b1ff246fe5,
+    _id: 5ee4e7765df4344e0def3124
+  },
+  '$init': true
+}
+[2020-06-14T17:08:46.368] [INFO] default - updateRes
+[2020-06-14T17:08:46.369] [INFO] default - socket login! {
+  name: '123',
+  id: '5ed4f3ed4256f1b1ff246fe5',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} 93otmw2XcYTH8VZrAAAB ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T17:08:46.491] [INFO] default - socket add room!
+[2020-06-14T17:08:46.492] [INFO] default - 123 加入了 5ee58faac2ddf87c56b191d5
+[2020-06-14T17:08:46.492] [INFO] default - socket add room!
+[2020-06-14T17:08:46.492] [INFO] default - 123 加入了 5ee5905fc2ddf87c56b191d6
+[2020-06-14T17:08:46.493] [INFO] default - socket add room!
+[2020-06-14T17:08:46.493] [INFO] default - 123 加入了 room1
+[2020-06-14T17:08:51.123] [INFO] default - socket message!
+[2020-06-14T17:08:51.123] [INFO] default - {
+  username: '123',
+  src: '//s3.qiufengh.com/avatar/25.jpeg',
+  img: '',
+  msg: '123',
+  to: false,
+  from: false,
+  roomType: 'group',
+  roomid: '5ee5905fc2ddf87c56b191d6',
+  time: '2020-06-14T09:08:51.121Z',
+  type: 'text',
+  clientId: '24433805-7c17-4b6c-bdea-2033a15214a9'
+}
+[2020-06-14T17:08:51.124] [INFO] default - 123 对房 5ee5905fc2ddf87c56b191d6 说: 123

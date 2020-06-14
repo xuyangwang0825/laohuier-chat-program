@@ -29,7 +29,7 @@ router.post('/add', async (req, res) => {
 
     const checkGroup = await Group.find({selfId, groupId}).exec();
 
-    if(checkFriend.length !== 0) {
+    if(checkGroup.length !== 0) {
       res.json({
         errno: 1,
         data: '您已经添加过该群组，请勿重复添加'
@@ -39,7 +39,7 @@ router.post('/add', async (req, res) => {
 
     const groupMoal = {
       selfId,
-      friendId,
+      groupId,
     }
 
     const group = new Group(groupMoal);
