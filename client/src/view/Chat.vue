@@ -290,8 +290,11 @@
         });
       },
       goback () {
+        /*
         this.$router.isBack = true;
         this.$router.goBack();
+        */
+       this.$router.push({ path: "/"});
       },
       setLog() {
         // 版本更新日志

@@ -68,7 +68,7 @@ router.get('/getInfo', async (req, res) => {
     });
     return;
   }
-  const roomResult = await Room.find({id: id}).exec();
+  const roomResult = await Room.find({_id: id}).exec();
   console.log(roomResult);
   res.json({
     errno: 0,

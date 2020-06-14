@@ -14,7 +14,7 @@
       </div>   
       <mu-row gutter class="user-tools">
         <mu-col span="6">
-          <mu-button class="op" @click="chatwindow(lookRoomInfo._id, lookRoomInfo.name)">发起聊天</mu-button>
+          <mu-button class="op" @click="chatwindow(roomid, lookRoomInfo.name)">发起聊天</mu-button>
         </mu-col>
         <mu-col span="6">
           <mu-button class="op" color="primary" @click="handelAddGroup">加入群聊</mu-button>
@@ -67,7 +67,7 @@ export default {
     const roomId = queryString(window.location.href, 'roomId');
     this.roomid = roomId;
     const id = roomId
-    await this.$store.dispatch('getUserInfo', {
+    this.$store.dispatch('getRoomInfo', {
       id,
     });
     // const allUser = {}
@@ -100,6 +100,8 @@ export default {
       }
     },
     async chatwindow(roomID, roomName) {
+      //console.log(roomName)
+      //console.log(roomID)
       if (!this.userInfo.token) {
         const res = await Confirm({
           title: "提示",

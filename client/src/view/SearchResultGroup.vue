@@ -6,7 +6,7 @@
       <mu-list-item avatar button :ripple="false" v-for="item in searchGroupList" :key="item._id" @click="lookInfo(item)">
         <mu-list-item-action>
           <mu-avatar>
-            <img :src="item.src">
+            <img src= "http://markdown.diobrando0825.cn/2020-06-14-ajpg.jpg" >
           </mu-avatar>
         </mu-list-item-action>
         <mu-list-item-title>{{item.name}}</mu-list-item-title>
