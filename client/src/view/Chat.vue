@@ -160,11 +160,13 @@
       const to = queryString(window.location.href, 'to');
       const from = queryString(window.location.href, 'from');
       const friendName = queryString(window.location.href, 'friendName');
+      const roomName = queryString(window.location.href, 'roomName');
       this.roomid = roomId;
       this.roomType = roomType;
       this.to = to;
       this.from = from;
       this.friendName = friendName;
+      this.roomName = roomName;
       if (!roomId) {
         this.$router.push({path: '/'});
       }

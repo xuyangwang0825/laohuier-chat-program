@@ -24,7 +24,7 @@ const {
   gethAllCache
 } = cache;
 
-const roomList = ['room1', 'room2'];
+const roomList = ['room1', 'room2','5ee58faac2ddf87c56b191d5'];
 
 function websocket(server) {
     const io = require('socket.io')(server);
@@ -231,7 +231,7 @@ function websocket(server) {
 
       const handleLogoutRoom = async (socket) => {
         try {
-          ['room1', 'room2'].forEach(async (item) => {
+          roomList.forEach(async (item) => {
             const roomid = item;
             const name = socket.name;
             if(users[roomid] && users[roomid].hasOwnProperty(name)) {

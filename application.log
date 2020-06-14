@@ -10518,3 +10518,4730 @@
 [2020-06-14T11:19:52.456] [INFO] default - 456 加入了 room1
 [2020-06-14T11:19:52.457] [INFO] default - socket add room!
 [2020-06-14T11:19:52.457] [INFO] default - 456 加入了 room2
+[2020-06-14T11:24:46.125] [INFO] default - socket connect!
+[2020-06-14T11:24:46.400] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T11:24:46.404] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'XHxL_L3xEFlDYg4RAAAA',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    _id: 5ee34bb7dcdc86406dd01f1a
+  },
+  '$init': true
+}
+[2020-06-14T11:24:46.437] [INFO] default - updateRes
+[2020-06-14T11:24:46.437] [INFO] default - socket login! {
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} P1FXBIEh2Pfw9vSHAAAB ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T11:24:46.493] [INFO] default - socket add room!
+[2020-06-14T11:24:46.495] [INFO] default - 456 加入了 room1
+[2020-06-14T11:24:46.495] [INFO] default - socket add room!
+[2020-06-14T11:24:46.495] [INFO] default - 456 加入了 room2
+[2020-06-14T11:28:19.644] [INFO] default - 192.168.31.143 - - "GET /static/files/1591246389505-fatty.png?width=211&height=200&imageView2/2/w/360 HTTP/1.1" 401 22 "http://192.168.31.143:9099/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+[2020-06-14T11:28:27.831] [INFO] default - socket message!
+[2020-06-14T11:28:27.833] [INFO] default - {
+  username: '456',
+  src: '//s3.qiufengh.com/avatar/177.jpeg',
+  img: 'static/files/1592105307806-wtf.png?width=685&height=917',
+  msg: '',
+  roomType: 'single',
+  roomid: '5ed87eb03d4462682169324a-5ed4f4314256f1b1ff246fe7',
+  type: 'img',
+  time: '2020-06-14T03:28:27.748Z',
+  to: '5ed87eb03d4462682169324a',
+  from: '5ed4f4314256f1b1ff246fe7',
+  clientId: 'bef182bc-9e70-47cf-96b8-b39302356104'
+}
+[2020-06-14T11:28:27.834] [INFO] default - 456 对房 5ed87eb03d4462682169324a-5ed4f4314256f1b1ff246fe7 说: 
+[2020-06-14T11:28:27.861] [INFO] default - 自己的id lKhvtRP-Asyd3yAYAAAF
+[2020-06-14T11:28:27.862] [INFO] default - 自己的id P1FXBIEh2Pfw9vSHAAAB
+[2020-06-14T11:29:55.058] [INFO] default - 192.168.31.143 - - "GET /static/files/1591246389505-fatty.png?width=211&height=200&imageView2/2/w/360 HTTP/1.1" 401 22 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+[2020-06-14T11:38:40.368] [INFO] default - 192.168.31.143 - - "GET /static/files/1591246389505-fatty.png?width=211&height=200&imageView2/2/w/360 HTTP/1.1" 401 22 "http://192.168.31.143:9099/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+[2020-06-14T11:40:58.788] [INFO] default - 192.168.31.143 - - "GET /static/files/1591246389505-fatty.png?width=211&height=200&imageView2/2/w/360 HTTP/1.1" 401 22 "http://192.168.31.143:9099/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+[2020-06-14T11:48:14.369] [INFO] default - cache!!!!
+[2020-06-14T11:48:14.907] [INFO] default - socket connect!
+[2020-06-14T11:48:14.945] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T11:48:14.964] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'P1FXBIEh2Pfw9vSHAAAB',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    _id: 5ee34bb7dcdc86406dd01f1a
+  },
+  '$init': true
+}
+[2020-06-14T11:48:14.979] [INFO] default - updateRes
+[2020-06-14T11:48:14.979] [INFO] default - socket login! {
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} cleUFqmQwzeyz5QUAAAA ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T11:48:15.704] [INFO] default - socket add room!
+[2020-06-14T11:48:15.705] [INFO] default - 456 加入了 room1
+[2020-06-14T11:48:15.706] [INFO] default - socket add room!
+[2020-06-14T11:48:15.706] [INFO] default - 456 加入了 room2
+[2020-06-14T11:48:16.946] [INFO] default - socket connect!
+[2020-06-14T11:48:16.968] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T11:48:16.970] [INFO] default - socket add room!
+[2020-06-14T11:48:16.970] [INFO] default - 456 加入了 room1
+[2020-06-14T11:48:16.971] [INFO] default - socket add room!
+[2020-06-14T11:48:16.972] [INFO] default - 456 加入了 room2
+[2020-06-14T11:48:16.978] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'cleUFqmQwzeyz5QUAAAA',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    _id: 5ee34bb7dcdc86406dd01f1a
+  },
+  '$init': true
+}
+[2020-06-14T11:48:16.987] [INFO] default - updateRes
+[2020-06-14T11:48:16.987] [INFO] default - socket login! {
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} iHfXXWe-Cbywim-2AAAB ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T11:48:30.835] [INFO] default - cache!!!!
+[2020-06-14T11:48:31.918] [INFO] default - socket connect!
+[2020-06-14T11:48:31.938] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T11:48:31.955] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'iHfXXWe-Cbywim-2AAAB',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    _id: 5ee34bb7dcdc86406dd01f1a
+  },
+  '$init': true
+}
+[2020-06-14T11:48:31.970] [INFO] default - updateRes
+[2020-06-14T11:48:31.970] [INFO] default - socket login! {
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} vkoZqW15EracFBGhAAAA ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T11:48:32.704] [INFO] default - socket add room!
+[2020-06-14T11:48:32.713] [INFO] default - 456 加入了 room1
+[2020-06-14T11:48:32.715] [INFO] default - socket add room!
+[2020-06-14T11:48:32.716] [INFO] default - 456 加入了 room2
+[2020-06-14T11:48:33.509] [INFO] default - socket connect!
+[2020-06-14T11:48:33.524] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T11:48:33.526] [INFO] default - socket add room!
+[2020-06-14T11:48:33.526] [INFO] default - 456 加入了 room1
+[2020-06-14T11:48:33.527] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'vkoZqW15EracFBGhAAAA',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    _id: 5ee34bb7dcdc86406dd01f1a
+  },
+  '$init': true
+}
+[2020-06-14T11:48:33.531] [INFO] default - socket add room!
+[2020-06-14T11:48:33.531] [INFO] default - 456 加入了 room2
+[2020-06-14T11:48:33.537] [INFO] default - updateRes
+[2020-06-14T11:48:33.537] [INFO] default - socket login! {
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} xgN64LKkTHk5kZvZAAAB ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T11:49:13.868] [INFO] default - socket disconnect!
+[2020-06-14T11:49:13.869] [INFO] default - 456 退出了 room1
+[2020-06-14T11:49:13.870] [INFO] default - 456 退出了 room2
+[2020-06-14T11:49:14.592] [INFO] default - socket connect!
+[2020-06-14T11:49:14.828] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T11:49:14.872] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'xgN64LKkTHk5kZvZAAAB',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    _id: 5ee34bb7dcdc86406dd01f1a
+  },
+  '$init': true
+}
+[2020-06-14T11:49:14.965] [INFO] default - updateRes
+[2020-06-14T11:49:14.966] [INFO] default - socket login! {
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} tjdutze8_JXQJzL_AAAC ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T11:49:15.011] [INFO] default - socket add room!
+[2020-06-14T11:49:15.012] [INFO] default - 456 加入了 room1
+[2020-06-14T11:49:15.012] [INFO] default - socket add room!
+[2020-06-14T11:49:15.013] [INFO] default - 456 加入了 room2
+[2020-06-14T11:51:21.305] [INFO] default - cache!!!!
+[2020-06-14T11:51:21.704] [INFO] default - socket connect!
+[2020-06-14T11:51:21.711] [INFO] default - socket connect!
+[2020-06-14T11:51:21.747] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T11:51:21.761] [INFO] default - socket add room!
+[2020-06-14T11:51:21.762] [INFO] default - 456 加入了 room1
+[2020-06-14T11:51:21.763] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'tjdutze8_JXQJzL_AAAC',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    _id: 5ee34bb7dcdc86406dd01f1a
+  },
+  '$init': true
+}
+[2020-06-14T11:51:21.776] [INFO] default - socket add room!
+[2020-06-14T11:51:21.777] [INFO] default - 456 加入了 room2
+[2020-06-14T11:51:21.781] [INFO] default - updateRes
+[2020-06-14T11:51:21.782] [INFO] default - socket login! {
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} GaBqy_mcpJ1I1UnNAAAA ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T11:51:22.718] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T11:51:22.721] [INFO] default - socket add room!
+[2020-06-14T11:51:22.721] [INFO] default - 456 加入了 room1
+[2020-06-14T11:51:22.723] [INFO] default - socket add room!
+[2020-06-14T11:51:22.723] [INFO] default - 456 加入了 room2
+[2020-06-14T11:51:22.725] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'GaBqy_mcpJ1I1UnNAAAA',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    _id: 5ee34bb7dcdc86406dd01f1a
+  },
+  '$init': true
+}
+[2020-06-14T11:51:22.728] [INFO] default - updateRes
+[2020-06-14T11:51:22.728] [INFO] default - socket login! {
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} GtTlaFdNa-mcHNq-AAAB ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T11:52:12.364] [INFO] default - socket disconnect!
+[2020-06-14T11:52:12.365] [INFO] default - 456 退出了 room1
+[2020-06-14T11:52:12.365] [INFO] default - 456 退出了 room2
+[2020-06-14T11:52:12.747] [INFO] default - socket connect!
+[2020-06-14T11:52:12.986] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T11:52:12.993] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'GtTlaFdNa-mcHNq-AAAB',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    _id: 5ee34bb7dcdc86406dd01f1a
+  },
+  '$init': true
+}
+[2020-06-14T11:52:13.000] [INFO] default - updateRes
+[2020-06-14T11:52:13.000] [INFO] default - socket login! {
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} vE_-C2dMKJvLtrTAAAAC ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T11:52:13.076] [INFO] default - socket add room!
+[2020-06-14T11:52:13.078] [INFO] default - 456 加入了 room1
+[2020-06-14T11:52:13.078] [INFO] default - socket add room!
+[2020-06-14T11:52:13.078] [INFO] default - 456 加入了 room2
+[2020-06-14T11:53:52.640] [INFO] default - cache!!!!
+[2020-06-14T11:53:52.859] [INFO] default - socket connect!
+[2020-06-14T11:53:52.923] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T11:53:52.948] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'vE_-C2dMKJvLtrTAAAAC',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    _id: 5ee34bb7dcdc86406dd01f1a
+  },
+  '$init': true
+}
+[2020-06-14T11:53:52.988] [INFO] default - updateRes
+[2020-06-14T11:53:52.988] [INFO] default - socket login! {
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} pVLZ6Mn4q88SFSXzAAAA ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T11:53:53.023] [INFO] default - socket add room!
+[2020-06-14T11:53:53.024] [INFO] default - 456 加入了 room1
+[2020-06-14T11:53:53.035] [INFO] default - socket add room!
+[2020-06-14T11:53:53.036] [INFO] default - 456 加入了 room2
+[2020-06-14T11:53:53.741] [INFO] default - socket connect!
+[2020-06-14T11:53:54.716] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T11:53:54.722] [INFO] default - socket add room!
+[2020-06-14T11:53:54.724] [INFO] default - 456 加入了 room1
+[2020-06-14T11:53:54.730] [INFO] default - socket add room!
+[2020-06-14T11:53:54.731] [INFO] default - 456 加入了 room2
+[2020-06-14T11:53:54.765] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'pVLZ6Mn4q88SFSXzAAAA',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    _id: 5ee34bb7dcdc86406dd01f1a
+  },
+  '$init': true
+}
+[2020-06-14T11:53:54.771] [INFO] default - updateRes
+[2020-06-14T11:53:54.771] [INFO] default - socket login! {
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} 8ux9a_Okd4t8agm1AAAB ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T12:04:40.446] [INFO] default - cache!!!!
+[2020-06-14T12:04:40.961] [INFO] default - socket connect!
+[2020-06-14T12:04:41.007] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T12:04:41.036] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: '8ux9a_Okd4t8agm1AAAB',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    _id: 5ee34bb7dcdc86406dd01f1a
+  },
+  '$init': true
+}
+[2020-06-14T12:04:41.053] [INFO] default - updateRes
+[2020-06-14T12:04:41.053] [INFO] default - socket login! {
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} MfDHw55q9Rol9NfxAAAA ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T12:04:41.865] [INFO] default - socket add room!
+[2020-06-14T12:04:41.866] [INFO] default - 456 加入了 room1
+[2020-06-14T12:04:41.869] [INFO] default - socket add room!
+[2020-06-14T12:04:41.870] [INFO] default - 456 加入了 room2
+[2020-06-14T12:04:43.312] [INFO] default - socket connect!
+[2020-06-14T12:04:43.357] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T12:04:43.360] [INFO] default - socket add room!
+[2020-06-14T12:04:43.360] [INFO] default - 456 加入了 room1
+[2020-06-14T12:04:43.363] [INFO] default - socket add room!
+[2020-06-14T12:04:43.363] [INFO] default - 456 加入了 room2
+[2020-06-14T12:04:43.371] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'MfDHw55q9Rol9NfxAAAA',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    _id: 5ee34bb7dcdc86406dd01f1a
+  },
+  '$init': true
+}
+[2020-06-14T12:04:43.377] [INFO] default - updateRes
+[2020-06-14T12:04:43.377] [INFO] default - socket login! {
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} zTux-LIaUFR9wIRBAAAB ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T12:04:54.286] [INFO] default - cache!!!!
+[2020-06-14T12:04:54.607] [INFO] default - socket connect!
+[2020-06-14T12:04:54.629] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T12:04:54.647] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'zTux-LIaUFR9wIRBAAAB',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    _id: 5ee34bb7dcdc86406dd01f1a
+  },
+  '$init': true
+}
+[2020-06-14T12:04:54.657] [INFO] default - updateRes
+[2020-06-14T12:04:54.658] [INFO] default - socket login! {
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} E5nAy9eyUV0YOk2WAAAA ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T12:04:54.737] [INFO] default - socket add room!
+[2020-06-14T12:04:54.738] [INFO] default - 456 加入了 room1
+[2020-06-14T12:04:54.738] [INFO] default - socket add room!
+[2020-06-14T12:04:54.739] [INFO] default - 456 加入了 room2
+[2020-06-14T12:04:55.811] [INFO] default - socket connect!
+[2020-06-14T12:04:56.729] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T12:04:56.734] [INFO] default - socket add room!
+[2020-06-14T12:04:56.736] [INFO] default - 456 加入了 room1
+[2020-06-14T12:04:56.747] [INFO] default - socket add room!
+[2020-06-14T12:04:56.749] [INFO] default - 456 加入了 room2
+[2020-06-14T12:04:56.804] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'E5nAy9eyUV0YOk2WAAAA',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    _id: 5ee34bb7dcdc86406dd01f1a
+  },
+  '$init': true
+}
+[2020-06-14T12:04:56.811] [INFO] default - updateRes
+[2020-06-14T12:04:56.812] [INFO] default - socket login! {
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} N3mDk0lyNJeCtIypAAAB ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T12:05:35.564] [INFO] default - cache!!!!
+[2020-06-14T12:05:35.701] [INFO] default - socket connect!
+[2020-06-14T12:05:35.763] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T12:05:35.782] [INFO] default - socket connect!
+[2020-06-14T12:05:35.787] [INFO] default - socket add room!
+[2020-06-14T12:05:35.803] [INFO] default - 456 加入了 room1
+[2020-06-14T12:05:35.803] [INFO] default - socket add room!
+[2020-06-14T12:05:35.803] [INFO] default - 456 加入了 room2
+[2020-06-14T12:05:35.850] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'N3mDk0lyNJeCtIypAAAB',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    _id: 5ee34bb7dcdc86406dd01f1a
+  },
+  '$init': true
+}
+[2020-06-14T12:05:35.858] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T12:05:35.887] [INFO] default - socket add room!
+[2020-06-14T12:05:35.898] [INFO] default - 456 加入了 room1
+[2020-06-14T12:05:35.899] [INFO] default - socket add room!
+[2020-06-14T12:05:35.902] [INFO] default - 456 加入了 room2
+[2020-06-14T12:05:35.921] [INFO] default - updateRes
+[2020-06-14T12:05:35.921] [INFO] default - socket login! {
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} 52f0XlnGBhco6XXqAAAA ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T12:05:35.942] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: '52f0XlnGBhco6XXqAAAA',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    _id: 5ee34bb7dcdc86406dd01f1a
+  },
+  '$init': true
+}
+[2020-06-14T12:05:35.962] [INFO] default - updateRes
+[2020-06-14T12:05:35.964] [INFO] default - socket login! {
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} SDTyiguyMUFk8gZbAAAB ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T12:05:42.387] [INFO] default - socket disconnect!
+[2020-06-14T12:05:42.387] [INFO] default - 456 退出了 room1
+[2020-06-14T12:05:42.387] [INFO] default - 456 退出了 room2
+[2020-06-14T12:05:52.061] [INFO] default - socket connect!
+[2020-06-14T12:05:52.331] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '123',
+  id: '5ed4f3ed4256f1b1ff246fe5',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T12:05:52.337] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee4e7765df4344e0def3124,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-13T13:16:36.212Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: '6gqwD_6pP631Rey2AAAA',
+    userId: 5ed4f3ed4256f1b1ff246fe5,
+    _id: 5ee4e7765df4344e0def3124
+  },
+  '$init': true
+}
+[2020-06-14T12:05:52.365] [INFO] default - updateRes
+[2020-06-14T12:05:52.365] [INFO] default - socket login! {
+  name: '123',
+  id: '5ed4f3ed4256f1b1ff246fe5',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} eBDziJVVpRYKTJ9LAAAC ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T12:05:52.427] [INFO] default - socket add room!
+[2020-06-14T12:05:52.428] [INFO] default - 123 加入了 room1
+[2020-06-14T12:05:52.428] [INFO] default - socket add room!
+[2020-06-14T12:05:52.428] [INFO] default - 123 加入了 room2
+[2020-06-14T12:06:05.454] [INFO] default - socket loginout!
+[2020-06-14T12:06:05.455] [INFO] default - 123 退出了 room1
+[2020-06-14T12:06:05.455] [INFO] default - 123 退出了 room2
+[2020-06-14T12:06:15.017] [INFO] default - success
+[2020-06-14T12:06:15.028] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T12:06:15.033] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'SDTyiguyMUFk8gZbAAAB',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    _id: 5ee34bb7dcdc86406dd01f1a
+  },
+  '$init': true
+}
+[2020-06-14T12:06:15.038] [INFO] default - socket add room!
+[2020-06-14T12:06:15.038] [INFO] default - 456 加入了 room1
+[2020-06-14T12:06:15.039] [INFO] default - socket add room!
+[2020-06-14T12:06:15.040] [INFO] default - 456 加入了 room2
+[2020-06-14T12:07:00.353] [INFO] default - cache!!!!
+[2020-06-14T12:07:00.532] [INFO] default - socket connect!
+[2020-06-14T12:07:00.588] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T12:07:00.604] [INFO] default - socket add room!
+[2020-06-14T12:07:00.605] [INFO] default - 456 加入了 room1
+[2020-06-14T12:07:00.606] [INFO] default - socket add room!
+[2020-06-14T12:07:00.607] [INFO] default - 456 加入了 room2
+[2020-06-14T12:07:00.639] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'SDTyiguyMUFk8gZbAAAB',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    _id: 5ee34bb7dcdc86406dd01f1a
+  },
+  '$init': true
+}
+[2020-06-14T12:07:00.661] [INFO] default - updateRes
+[2020-06-14T12:07:00.662] [INFO] default - socket login! {
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} 0DZtWKRLC5v6EkK3AAAA ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T12:07:01.259] [INFO] default - socket connect!
+[2020-06-14T12:07:01.310] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T12:07:01.317] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: '0DZtWKRLC5v6EkK3AAAA',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    _id: 5ee34bb7dcdc86406dd01f1a
+  },
+  '$init': true
+}
+[2020-06-14T12:07:01.368] [INFO] default - updateRes
+[2020-06-14T12:07:01.369] [INFO] default - socket login! {
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} GhLPZskF3BD48q5xAAAB ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T12:07:01.743] [INFO] default - socket add room!
+[2020-06-14T12:07:01.744] [INFO] default - 456 加入了 room1
+[2020-06-14T12:07:01.749] [INFO] default - socket add room!
+[2020-06-14T12:07:01.749] [INFO] default - 456 加入了 room2
+[2020-06-14T12:07:31.384] [INFO] default - cache!!!!
+[2020-06-14T12:07:31.482] [INFO] default - socket connect!
+[2020-06-14T12:07:31.517] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T12:07:31.541] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'GhLPZskF3BD48q5xAAAB',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    _id: 5ee34bb7dcdc86406dd01f1a
+  },
+  '$init': true
+}
+[2020-06-14T12:07:31.559] [INFO] default - updateRes
+[2020-06-14T12:07:31.559] [INFO] default - socket login! {
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} _2ji_0scUTRqBLkwAAAA ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T12:07:31.615] [INFO] default - socket add room!
+[2020-06-14T12:07:31.616] [INFO] default - 456 加入了 room1
+[2020-06-14T12:07:31.617] [INFO] default - socket add room!
+[2020-06-14T12:07:31.617] [INFO] default - 456 加入了 room2
+[2020-06-14T12:07:31.962] [INFO] default - socket connect!
+[2020-06-14T12:07:32.722] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T12:07:32.727] [INFO] default - socket add room!
+[2020-06-14T12:07:32.728] [INFO] default - 456 加入了 room1
+[2020-06-14T12:07:32.730] [INFO] default - socket add room!
+[2020-06-14T12:07:32.732] [INFO] default - 456 加入了 room2
+[2020-06-14T12:07:32.748] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: '_2ji_0scUTRqBLkwAAAA',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    _id: 5ee34bb7dcdc86406dd01f1a
+  },
+  '$init': true
+}
+[2020-06-14T12:07:32.761] [INFO] default - updateRes
+[2020-06-14T12:07:32.762] [INFO] default - socket login! {
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} mBk2FVHfOHTsHnInAAAB ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T12:08:00.974] [INFO] default - cache!!!!
+[2020-06-14T12:08:01.789] [INFO] default - socket connect!
+[2020-06-14T12:08:02.281] [INFO] default - socket connect!
+[2020-06-14T12:08:02.309] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T12:08:02.319] [INFO] default - socket add room!
+[2020-06-14T12:08:02.320] [INFO] default - 456 加入了 room1
+[2020-06-14T12:08:02.321] [INFO] default - socket add room!
+[2020-06-14T12:08:02.322] [INFO] default - 456 加入了 room2
+[2020-06-14T12:08:02.329] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'mBk2FVHfOHTsHnInAAAB',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    _id: 5ee34bb7dcdc86406dd01f1a
+  },
+  '$init': true
+}
+[2020-06-14T12:08:02.336] [INFO] default - updateRes
+[2020-06-14T12:08:02.336] [INFO] default - socket login! {
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} fig2qXYqzSEd1H45AAAB ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T12:08:03.155] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T12:08:03.159] [INFO] default - socket add room!
+[2020-06-14T12:08:03.160] [INFO] default - 456 加入了 room1
+[2020-06-14T12:08:03.161] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'fig2qXYqzSEd1H45AAAB',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    _id: 5ee34bb7dcdc86406dd01f1a
+  },
+  '$init': true
+}
+[2020-06-14T12:08:03.166] [INFO] default - socket add room!
+[2020-06-14T12:08:03.167] [INFO] default - 456 加入了 room2
+[2020-06-14T12:08:03.174] [INFO] default - updateRes
+[2020-06-14T12:08:03.175] [INFO] default - socket login! {
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} 3MdUmQ3xOAqQj73WAAAA ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T12:08:18.025] [INFO] default - socket disconnect!
+[2020-06-14T12:08:18.026] [INFO] default - 456 退出了 room1
+[2020-06-14T12:08:18.027] [INFO] default - 456 退出了 room2
+[2020-06-14T12:08:18.705] [INFO] default - socket connect!
+[2020-06-14T12:08:18.891] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T12:08:18.894] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: '3MdUmQ3xOAqQj73WAAAA',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    _id: 5ee34bb7dcdc86406dd01f1a
+  },
+  '$init': true
+}
+[2020-06-14T12:08:18.907] [INFO] default - updateRes
+[2020-06-14T12:08:18.907] [INFO] default - socket login! {
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} qIUtLEsA7Q4oiwP5AAAC ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T12:08:19.161] [INFO] default - socket add room!
+[2020-06-14T12:08:19.162] [INFO] default - 456 加入了 room1
+[2020-06-14T12:08:19.162] [INFO] default - socket add room!
+[2020-06-14T12:08:19.164] [INFO] default - 456 加入了 room2
+[2020-06-14T12:08:49.357] [INFO] default - 127.0.0.1 - - "GET /static/files/1591246389505-fatty.png?width=211&height=200&imageView2/2/w/360 HTTP/1.1" 401 22 "http://localhost:9099/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+[2020-06-14T12:11:08.398] [INFO] default - socket disconnect!
+[2020-06-14T12:11:08.400] [INFO] default - 456 退出了 room1
+[2020-06-14T12:11:08.403] [INFO] default - 456 退出了 room2
+[2020-06-14T12:11:47.119] [INFO] default - socket disconnect!
+[2020-06-14T12:11:47.998] [INFO] default - socket connect!
+[2020-06-14T12:11:48.273] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T12:11:48.288] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'qIUtLEsA7Q4oiwP5AAAC',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    _id: 5ee34bb7dcdc86406dd01f1a
+  },
+  '$init': true
+}
+[2020-06-14T12:11:48.311] [INFO] default - updateRes
+[2020-06-14T12:11:48.311] [INFO] default - socket login! {
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} tE0FczcQ7IUVTdmIAAAD ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T12:11:48.412] [INFO] default - socket add room!
+[2020-06-14T12:11:48.413] [INFO] default - 456 加入了 room1
+[2020-06-14T12:11:48.413] [INFO] default - socket add room!
+[2020-06-14T12:11:48.413] [INFO] default - 456 加入了 room2
+[2020-06-14T12:13:00.369] [INFO] default - cache!!!!
+[2020-06-14T12:13:01.242] [INFO] default - socket connect!
+[2020-06-14T12:13:01.266] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T12:13:01.277] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'tE0FczcQ7IUVTdmIAAAD',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    _id: 5ee34bb7dcdc86406dd01f1a
+  },
+  '$init': true
+}
+[2020-06-14T12:13:01.290] [INFO] default - updateRes
+[2020-06-14T12:13:01.290] [INFO] default - socket login! {
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} c9Lj36Y-f5NyiYg4AAAA ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T12:13:01.369] [INFO] default - socket add room!
+[2020-06-14T12:13:01.370] [INFO] default - 456 加入了 room1
+[2020-06-14T12:13:01.371] [INFO] default - socket add room!
+[2020-06-14T12:13:01.372] [INFO] default - 456 加入了 room2
+[2020-06-14T12:13:46.150] [INFO] default - cache!!!!
+[2020-06-14T12:13:46.259] [INFO] default - socket connect!
+[2020-06-14T12:13:46.285] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T12:13:46.312] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'c9Lj36Y-f5NyiYg4AAAA',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    _id: 5ee34bb7dcdc86406dd01f1a
+  },
+  '$init': true
+}
+[2020-06-14T12:13:46.331] [INFO] default - updateRes
+[2020-06-14T12:13:46.331] [INFO] default - socket login! {
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} reDeN8CnsLVGk1kuAAAA ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T12:13:46.392] [INFO] default - socket add room!
+[2020-06-14T12:13:46.393] [INFO] default - 456 加入了 room1
+[2020-06-14T12:13:46.394] [INFO] default - socket add room!
+[2020-06-14T12:13:46.394] [INFO] default - 456 加入了 room2
+[2020-06-14T12:14:41.319] [INFO] default - cache!!!!
+[2020-06-14T12:14:41.540] [INFO] default - socket connect!
+[2020-06-14T12:14:41.592] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T12:14:41.607] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'reDeN8CnsLVGk1kuAAAA',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    _id: 5ee34bb7dcdc86406dd01f1a
+  },
+  '$init': true
+}
+[2020-06-14T12:14:41.619] [INFO] default - updateRes
+[2020-06-14T12:14:41.619] [INFO] default - socket login! {
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} VA_n_ShrpLMNiAo5AAAA ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T12:14:41.691] [INFO] default - socket add room!
+[2020-06-14T12:14:41.695] [INFO] default - 456 加入了 room1
+[2020-06-14T12:14:41.696] [INFO] default - socket add room!
+[2020-06-14T12:14:41.696] [INFO] default - 456 加入了 room2
+[2020-06-14T12:14:43.897] [INFO] default - socket disconnect!
+[2020-06-14T12:14:43.898] [INFO] default - 456 退出了 room1
+[2020-06-14T12:14:43.898] [INFO] default - 456 退出了 room2
+[2020-06-14T12:14:44.451] [INFO] default - socket connect!
+[2020-06-14T12:14:44.603] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T12:14:44.607] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'VA_n_ShrpLMNiAo5AAAA',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    _id: 5ee34bb7dcdc86406dd01f1a
+  },
+  '$init': true
+}
+[2020-06-14T12:14:44.614] [INFO] default - updateRes
+[2020-06-14T12:14:44.614] [INFO] default - socket login! {
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} o1Tae0xXlPmKYpGJAAAB ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T12:14:44.657] [INFO] default - socket add room!
+[2020-06-14T12:14:44.658] [INFO] default - 456 加入了 room1
+[2020-06-14T12:14:44.658] [INFO] default - socket add room!
+[2020-06-14T12:14:44.658] [INFO] default - 456 加入了 room2
+[2020-06-14T12:16:16.000] [INFO] default - cache!!!!
+[2020-06-14T12:16:16.247] [INFO] default - socket connect!
+[2020-06-14T12:16:16.271] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T12:16:16.286] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'o1Tae0xXlPmKYpGJAAAB',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    _id: 5ee34bb7dcdc86406dd01f1a
+  },
+  '$init': true
+}
+[2020-06-14T12:16:16.298] [INFO] default - updateRes
+[2020-06-14T12:16:16.298] [INFO] default - socket login! {
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} 5mU0uPzrtwMtXUvFAAAA ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T12:16:16.371] [INFO] default - socket add room!
+[2020-06-14T12:16:16.372] [INFO] default - 456 加入了 room1
+[2020-06-14T12:16:16.373] [INFO] default - socket add room!
+[2020-06-14T12:16:16.374] [INFO] default - 456 加入了 room2
+[2020-06-14T12:16:18.954] [INFO] default - socket disconnect!
+[2020-06-14T12:16:18.954] [INFO] default - 456 退出了 room1
+[2020-06-14T12:16:18.954] [INFO] default - 456 退出了 room2
+[2020-06-14T12:16:19.289] [INFO] default - socket connect!
+[2020-06-14T12:16:19.521] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T12:16:19.525] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: '5mU0uPzrtwMtXUvFAAAA',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    _id: 5ee34bb7dcdc86406dd01f1a
+  },
+  '$init': true
+}
+[2020-06-14T12:16:19.538] [INFO] default - socket add room!
+[2020-06-14T12:16:19.539] [INFO] default - 456 加入了 room1
+[2020-06-14T12:16:19.539] [INFO] default - socket add room!
+[2020-06-14T12:16:19.539] [INFO] default - 456 加入了 room2
+[2020-06-14T12:16:19.542] [INFO] default - updateRes
+[2020-06-14T12:16:19.542] [INFO] default - socket login! {
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} uf-sjAW1j1COWWxFAAAB ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T12:18:10.365] [INFO] default - cache!!!!
+[2020-06-14T12:18:12.358] [INFO] default - socket connect!
+[2020-06-14T12:18:12.398] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T12:18:12.416] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'uf-sjAW1j1COWWxFAAAB',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    _id: 5ee34bb7dcdc86406dd01f1a
+  },
+  '$init': true
+}
+[2020-06-14T12:18:12.430] [INFO] default - updateRes
+[2020-06-14T12:18:12.430] [INFO] default - socket login! {
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} WcijKw_nOr4hOZCrAAAA ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T12:18:12.496] [INFO] default - socket add room!
+[2020-06-14T12:18:12.497] [INFO] default - 456 加入了 room1
+[2020-06-14T12:18:12.498] [INFO] default - socket add room!
+[2020-06-14T12:18:12.499] [INFO] default - 456 加入了 room2
+[2020-06-14T12:18:13.825] [INFO] default - socket disconnect!
+[2020-06-14T12:18:13.825] [INFO] default - 456 退出了 room1
+[2020-06-14T12:18:13.826] [INFO] default - 456 退出了 room2
+[2020-06-14T12:18:14.126] [INFO] default - socket connect!
+[2020-06-14T12:18:14.289] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T12:18:14.296] [INFO] default - socket add room!
+[2020-06-14T12:18:14.297] [INFO] default - 456 加入了 room1
+[2020-06-14T12:18:14.298] [INFO] default - socket add room!
+[2020-06-14T12:18:14.298] [INFO] default - 456 加入了 room2
+[2020-06-14T12:18:14.399] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'WcijKw_nOr4hOZCrAAAA',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    _id: 5ee34bb7dcdc86406dd01f1a
+  },
+  '$init': true
+}
+[2020-06-14T12:18:14.487] [INFO] default - updateRes
+[2020-06-14T12:18:14.487] [INFO] default - socket login! {
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} ogB5r1VZOoI4wnd-AAAB ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T12:21:12.903] [INFO] default - cache!!!!
+[2020-06-14T12:21:14.887] [INFO] default - socket connect!
+[2020-06-14T12:21:14.911] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T12:21:14.925] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'ogB5r1VZOoI4wnd-AAAB',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    _id: 5ee34bb7dcdc86406dd01f1a
+  },
+  '$init': true
+}
+[2020-06-14T12:21:14.931] [INFO] default - updateRes
+[2020-06-14T12:21:14.931] [INFO] default - socket login! {
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} JL5XGIVXN4U_oZFYAAAA ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T12:21:15.011] [INFO] default - socket add room!
+[2020-06-14T12:21:15.011] [INFO] default - 456 加入了 room1
+[2020-06-14T12:21:15.012] [INFO] default - socket add room!
+[2020-06-14T12:21:15.012] [INFO] default - 456 加入了 room2
+[2020-06-14T12:27:27.153] [INFO] default - socket connect!
+[2020-06-14T12:27:27.479] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T12:27:27.486] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'JL5XGIVXN4U_oZFYAAAA',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    _id: 5ee34bb7dcdc86406dd01f1a
+  },
+  '$init': true
+}
+[2020-06-14T12:27:27.520] [INFO] default - updateRes
+[2020-06-14T12:27:27.521] [INFO] default - socket login! {
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} RXEs1sI7TZU_4vzLAAAB ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T12:27:27.633] [INFO] default - socket add room!
+[2020-06-14T12:27:27.635] [INFO] default - 456 加入了 room1
+[2020-06-14T12:27:27.635] [INFO] default - socket add room!
+[2020-06-14T12:27:27.636] [INFO] default - 456 加入了 room2
+[2020-06-14T12:27:30.279] [INFO] default - socket loginout!
+[2020-06-14T12:27:30.279] [INFO] default - 456 退出了 room1
+[2020-06-14T12:27:30.280] [INFO] default - 456 退出了 room2
+[2020-06-14T12:27:34.144] [INFO] default - success
+[2020-06-14T12:27:34.151] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '123',
+  id: '5ed4f3ed4256f1b1ff246fe5',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T12:27:34.154] [INFO] default - socket add room!
+[2020-06-14T12:27:34.154] [INFO] default - 123 加入了 room1
+[2020-06-14T12:27:34.156] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee4e7765df4344e0def3124,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-13T13:16:36.212Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'eBDziJVVpRYKTJ9LAAAC',
+    userId: 5ed4f3ed4256f1b1ff246fe5,
+    _id: 5ee4e7765df4344e0def3124
+  },
+  '$init': true
+}
+[2020-06-14T12:27:34.158] [INFO] default - socket add room!
+[2020-06-14T12:27:34.159] [INFO] default - 123 加入了 room2
+[2020-06-14T12:28:01.369] [INFO] default - socket message!
+[2020-06-14T12:28:01.370] [INFO] default - {
+  username: '456',
+  src: '//s3.qiufengh.com/avatar/177.jpeg',
+  img: '',
+  msg: '123',
+  to: false,
+  from: false,
+  roomType: 'group',
+  roomid: '5ee58faac2ddf87c56b191d5',
+  time: '2020-06-14T04:28:01.367Z',
+  type: 'text',
+  clientId: '73711c9c-aa56-4819-a696-2419ec788c22'
+}
+[2020-06-14T12:28:01.370] [INFO] default - 456 对房 5ee58faac2ddf87c56b191d5 说: 123
+[2020-06-14T12:28:15.904] [INFO] default - socket disconnect!
+[2020-06-14T12:28:22.449] [INFO] default - socket message!
+[2020-06-14T12:28:22.449] [INFO] default - {
+  username: '456',
+  src: '//s3.qiufengh.com/avatar/177.jpeg',
+  img: '',
+  msg: '123',
+  to: false,
+  from: false,
+  roomType: 'group',
+  roomid: '5ee58faac2ddf87c56b191d5',
+  time: '2020-06-14T04:28:01.367Z',
+  type: 'text',
+  clientId: 'cb3678ea-792c-4db5-89f9-a53f3ffaaff2',
+  status: 'loading'
+}
+[2020-06-14T12:28:22.450] [INFO] default - 456 对房 5ee58faac2ddf87c56b191d5 说: 123
+[2020-06-14T12:31:39.387] [INFO] default - 192.168.31.143 - - "GET /static/files/1591246389505-fatty.png?width=211&height=200&imageView2/2/w/360 HTTP/1.1" 401 22 "http://192.168.31.143:9099/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+[2020-06-14T12:32:05.810] [INFO] default - 192.168.31.143 - - "GET /static/files/1591246389505-fatty.png?width=211&height=200&imageView2/2/w/360 HTTP/1.1" 401 22 "http://192.168.31.143:9099/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+[2020-06-14T12:38:26.084] [INFO] default - socket message!
+[2020-06-14T12:38:26.085] [INFO] default - {
+  username: '456',
+  src: '//s3.qiufengh.com/avatar/177.jpeg',
+  img: '',
+  msg: '123',
+  to: false,
+  from: false,
+  roomType: 'group',
+  roomid: '5ee58faac2ddf87c56b191d5',
+  time: '2020-06-14T04:28:01.367Z',
+  type: 'text',
+  clientId: 'f9c8cf2b-a4dc-4dc2-8469-9614cbf8ac47',
+  status: 'loading'
+}
+[2020-06-14T12:38:26.085] [INFO] default - 456 对房 5ee58faac2ddf87c56b191d5 说: 123
+[2020-06-14T12:40:48.324] [INFO] default - socket message!
+[2020-06-14T12:40:48.325] [INFO] default - {
+  username: '456',
+  src: '//s3.qiufengh.com/avatar/177.jpeg',
+  img: '',
+  msg: '111',
+  to: false,
+  from: false,
+  roomType: 'group',
+  roomid: 'room1',
+  time: '2020-06-14T04:40:48.320Z',
+  type: 'text',
+  clientId: 'fa064131-2402-49f2-9894-0bacf199676d'
+}
+[2020-06-14T12:40:48.325] [INFO] default - 456 对房 room1 说: 111
+[2020-06-14T12:41:13.081] [INFO] default - socket message!
+[2020-06-14T12:41:13.081] [INFO] default - {
+  username: '456',
+  src: '//s3.qiufengh.com/avatar/177.jpeg',
+  img: '',
+  msg: '1',
+  to: false,
+  from: false,
+  roomType: 'group',
+  roomid: '5ee58faac2ddf87c56b191d5',
+  time: '2020-06-14T04:41:13.078Z',
+  type: 'text',
+  clientId: 'd5de0bd3-d6a2-47af-a3f1-a66fc8335574'
+}
+[2020-06-14T12:41:13.081] [INFO] default - 456 对房 5ee58faac2ddf87c56b191d5 说: 1
+[2020-06-14T12:42:20.579] [INFO] default - socket message!
+[2020-06-14T12:42:20.579] [INFO] default - {
+  username: '456',
+  src: '//s3.qiufengh.com/avatar/177.jpeg',
+  img: '',
+  msg: '1',
+  to: false,
+  from: false,
+  roomType: 'group',
+  roomid: '5ee58faac2ddf87c56b191d5',
+  time: '2020-06-14T04:42:20.576Z',
+  type: 'text',
+  clientId: 'aac1d76e-f5e4-43f5-b373-96445ab3719c'
+}
+[2020-06-14T12:42:20.579] [INFO] default - 456 对房 5ee58faac2ddf87c56b191d5 说: 1
+[2020-06-14T12:48:35.874] [INFO] default - socket connect!
+[2020-06-14T12:48:36.229] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T12:48:36.233] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'RXEs1sI7TZU_4vzLAAAB',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    _id: 5ee34bb7dcdc86406dd01f1a
+  },
+  '$init': true
+}
+[2020-06-14T12:48:36.262] [INFO] default - socket add room!
+[2020-06-14T12:48:36.263] [INFO] default - 456 加入了 room1
+[2020-06-14T12:48:36.264] [INFO] default - socket add room!
+[2020-06-14T12:48:36.305] [INFO] default - 456 加入了 room2
+[2020-06-14T12:48:36.333] [INFO] default - updateRes
+[2020-06-14T12:48:36.333] [INFO] default - socket login! {
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} a3YYCQx359qp09W6AAAC ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T12:48:39.231] [INFO] default - socket loginout!
+[2020-06-14T12:48:39.231] [INFO] default - 456 退出了 room1
+[2020-06-14T12:48:39.232] [INFO] default - 456 退出了 room2
+[2020-06-14T12:48:43.217] [INFO] default - success
+[2020-06-14T12:48:43.226] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '123',
+  id: '5ed4f3ed4256f1b1ff246fe5',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T12:48:43.233] [INFO] default - socket add room!
+[2020-06-14T12:48:43.234] [INFO] default - 123 加入了 room1
+[2020-06-14T12:48:43.236] [INFO] default - socket add room!
+[2020-06-14T12:48:43.239] [INFO] default - 123 加入了 room2
+[2020-06-14T12:48:43.247] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee4e7765df4344e0def3124,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-13T13:16:36.212Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'eBDziJVVpRYKTJ9LAAAC',
+    userId: 5ed4f3ed4256f1b1ff246fe5,
+    _id: 5ee4e7765df4344e0def3124
+  },
+  '$init': true
+}
+[2020-06-14T12:48:48.461] [INFO] default - socket message!
+[2020-06-14T12:48:48.461] [INFO] default - {
+  username: '123',
+  src: '//s3.qiufengh.com/avatar/25.jpeg',
+  img: '',
+  msg: '666',
+  to: false,
+  from: false,
+  roomType: 'group',
+  roomid: '5ee58faac2ddf87c56b191d5',
+  time: '2020-06-14T04:48:48.458Z',
+  type: 'text',
+  clientId: '1692b395-4520-4653-8bb3-8d7a8ca211fe'
+}
+[2020-06-14T12:48:48.461] [INFO] default - 123 对房 5ee58faac2ddf87c56b191d5 说: 666
+[2020-06-14T12:49:02.062] [INFO] default - socket disconnect!
+[2020-06-14T12:49:02.422] [INFO] default - socket connect!
+[2020-06-14T12:49:02.626] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '123',
+  id: '5ed4f3ed4256f1b1ff246fe5',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T12:49:02.711] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee4e7765df4344e0def3124,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-13T13:16:36.212Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'eBDziJVVpRYKTJ9LAAAC',
+    userId: 5ed4f3ed4256f1b1ff246fe5,
+    _id: 5ee4e7765df4344e0def3124
+  },
+  '$init': true
+}
+[2020-06-14T12:49:02.718] [INFO] default - updateRes
+[2020-06-14T12:49:02.719] [INFO] default - socket login! {
+  name: '123',
+  id: '5ed4f3ed4256f1b1ff246fe5',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} SHkNxTgkEJBBl8HGAAAD ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T12:49:02.812] [INFO] default - socket add room!
+[2020-06-14T12:49:02.813] [INFO] default - 123 加入了 room1
+[2020-06-14T12:49:02.815] [INFO] default - socket add room!
+[2020-06-14T12:49:02.815] [INFO] default - 123 加入了 room2
+[2020-06-14T12:49:07.948] [INFO] default - socket loginout!
+[2020-06-14T12:49:07.949] [INFO] default - 123 退出了 room1
+[2020-06-14T12:49:07.951] [INFO] default - 123 退出了 room2
+[2020-06-14T12:49:14.378] [INFO] default - success
+[2020-06-14T12:49:14.384] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T12:49:14.387] [INFO] default - socket add room!
+[2020-06-14T12:49:14.388] [INFO] default - 456 加入了 room1
+[2020-06-14T12:49:14.388] [INFO] default - socket add room!
+[2020-06-14T12:49:14.389] [INFO] default - 456 加入了 room2
+[2020-06-14T12:49:14.391] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'a3YYCQx359qp09W6AAAC',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    _id: 5ee34bb7dcdc86406dd01f1a
+  },
+  '$init': true
+}
+[2020-06-14T12:51:20.194] [INFO] default - socket disconnect!
+[2020-06-14T12:51:20.195] [INFO] default - 456 退出了 room1
+[2020-06-14T12:51:20.195] [INFO] default - 456 退出了 room2
+[2020-06-14T12:51:20.206] [INFO] default - socket disconnect!
+[2020-06-14T12:51:20.985] [INFO] default - socket connect!
+[2020-06-14T12:51:20.991] [INFO] default - socket connect!
+[2020-06-14T12:51:21.417] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '123',
+  id: '5ed4f3ed4256f1b1ff246fe5',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T12:51:21.464] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee4e7765df4344e0def3124,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-13T13:16:36.212Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'SHkNxTgkEJBBl8HGAAAD',
+    userId: 5ed4f3ed4256f1b1ff246fe5,
+    _id: 5ee4e7765df4344e0def3124
+  },
+  '$init': true
+}
+[2020-06-14T12:51:21.644] [INFO] default - updateRes
+[2020-06-14T12:51:21.644] [INFO] default - socket login! {
+  name: '123',
+  id: '5ed4f3ed4256f1b1ff246fe5',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} Qb5M-_LWgngzh3iDAAAE ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T12:51:21.671] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T12:51:21.690] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'a3YYCQx359qp09W6AAAC',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    _id: 5ee34bb7dcdc86406dd01f1a
+  },
+  '$init': true
+}
+[2020-06-14T12:51:21.731] [INFO] default - updateRes
+[2020-06-14T12:51:21.731] [INFO] default - socket login! {
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} QNwFJTx1sggP5IkyAAAF ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T12:51:21.846] [INFO] default - socket add room!
+[2020-06-14T12:51:21.847] [INFO] default - 456 加入了 room1
+[2020-06-14T12:51:21.848] [INFO] default - socket add room!
+[2020-06-14T12:51:21.848] [INFO] default - 456 加入了 room2
+[2020-06-14T12:51:21.848] [INFO] default - socket add room!
+[2020-06-14T12:51:21.848] [INFO] default - 456 加入了 5ee58faac2ddf87c56b191d5
+[2020-06-14T12:51:21.908] [INFO] default - socket add room!
+[2020-06-14T12:51:21.908] [INFO] default - 123 加入了 room1
+[2020-06-14T12:51:21.909] [INFO] default - socket add room!
+[2020-06-14T12:51:21.909] [INFO] default - 123 加入了 room2
+[2020-06-14T12:51:21.910] [INFO] default - socket add room!
+[2020-06-14T12:51:21.910] [INFO] default - 123 加入了 5ee58faac2ddf87c56b191d5
+[2020-06-14T12:51:23.687] [INFO] default - socket message!
+[2020-06-14T12:51:23.687] [INFO] default - {
+  username: '456',
+  src: '//s3.qiufengh.com/avatar/177.jpeg',
+  img: '',
+  msg: '123',
+  to: false,
+  from: false,
+  roomType: 'group',
+  roomid: '5ee58faac2ddf87c56b191d5',
+  time: '2020-06-14T04:51:23.685Z',
+  type: 'text',
+  clientId: 'f997039a-4773-4658-919b-8b237d63155f'
+}
+[2020-06-14T12:51:23.687] [INFO] default - 456 对房 5ee58faac2ddf87c56b191d5 说: 123
+[2020-06-14T12:51:36.994] [INFO] default - socket disconnect!
+[2020-06-14T12:51:36.994] [INFO] default - 123 退出了 room1
+[2020-06-14T12:51:36.995] [INFO] default - 123 退出了 room2
+[2020-06-14T12:51:37.043] [INFO] default - socket disconnect!
+[2020-06-14T12:51:37.043] [INFO] default - 456 退出了 room1
+[2020-06-14T12:51:37.043] [INFO] default - 456 退出了 room2
+[2020-06-14T12:51:37.801] [INFO] default - socket connect!
+[2020-06-14T12:51:37.801] [INFO] default - socket connect!
+[2020-06-14T12:51:37.871] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '123',
+  id: '5ed4f3ed4256f1b1ff246fe5',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T12:51:37.985] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee4e7765df4344e0def3124,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-13T13:16:36.212Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'Qb5M-_LWgngzh3iDAAAE',
+    userId: 5ed4f3ed4256f1b1ff246fe5,
+    _id: 5ee4e7765df4344e0def3124
+  },
+  '$init': true
+}
+[2020-06-14T12:51:38.037] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T12:51:38.067] [INFO] default - updateRes
+[2020-06-14T12:51:38.067] [INFO] default - socket login! {
+  name: '123',
+  id: '5ed4f3ed4256f1b1ff246fe5',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} VdZML1DfPZAjup1oAAAG ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T12:51:38.096] [INFO] default - socket add room!
+[2020-06-14T12:51:38.096] [INFO] default - 123 加入了 room1
+[2020-06-14T12:51:38.096] [INFO] default - socket add room!
+[2020-06-14T12:51:38.097] [INFO] default - 123 加入了 room2
+[2020-06-14T12:51:38.107] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'QNwFJTx1sggP5IkyAAAF',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    _id: 5ee34bb7dcdc86406dd01f1a
+  },
+  '$init': true
+}
+[2020-06-14T12:51:38.125] [INFO] default - updateRes
+[2020-06-14T12:51:38.125] [INFO] default - socket login! {
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} KasVHl6-yfbb_J51AAAH ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T12:51:38.147] [INFO] default - socket add room!
+[2020-06-14T12:51:38.148] [INFO] default - 456 加入了 room1
+[2020-06-14T12:51:38.148] [INFO] default - socket add room!
+[2020-06-14T12:51:38.148] [INFO] default - 456 加入了 room2
+[2020-06-14T12:51:41.374] [INFO] default - socket disconnect!
+[2020-06-14T12:51:41.374] [INFO] default - 123 退出了 room1
+[2020-06-14T12:51:41.375] [INFO] default - 123 退出了 room2
+[2020-06-14T12:51:41.430] [INFO] default - socket disconnect!
+[2020-06-14T12:51:41.430] [INFO] default - 456 退出了 room1
+[2020-06-14T12:51:41.430] [INFO] default - 456 退出了 room2
+[2020-06-14T12:51:41.786] [INFO] default - socket connect!
+[2020-06-14T12:51:41.910] [INFO] default - socket connect!
+[2020-06-14T12:51:42.029] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '123',
+  id: '5ed4f3ed4256f1b1ff246fe5',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T12:51:42.066] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee4e7765df4344e0def3124,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-13T13:16:36.212Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'VdZML1DfPZAjup1oAAAG',
+    userId: 5ed4f3ed4256f1b1ff246fe5,
+    _id: 5ee4e7765df4344e0def3124
+  },
+  '$init': true
+}
+[2020-06-14T12:51:42.077] [INFO] default - updateRes
+[2020-06-14T12:51:42.077] [INFO] default - socket login! {
+  name: '123',
+  id: '5ed4f3ed4256f1b1ff246fe5',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} ZeU-hIcaOm_I0PEwAAAI ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T12:51:42.164] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T12:51:42.183] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'KasVHl6-yfbb_J51AAAH',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    _id: 5ee34bb7dcdc86406dd01f1a
+  },
+  '$init': true
+}
+[2020-06-14T12:51:42.197] [INFO] default - updateRes
+[2020-06-14T12:51:42.197] [INFO] default - socket login! {
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} tw7gcEHwmNahm_ZoAAAJ ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T12:51:42.224] [INFO] default - socket add room!
+[2020-06-14T12:51:42.225] [INFO] default - 456 加入了 room1
+[2020-06-14T12:51:42.225] [INFO] default - socket add room!
+[2020-06-14T12:51:42.225] [INFO] default - 456 加入了 room2
+[2020-06-14T12:51:42.225] [INFO] default - socket add room!
+[2020-06-14T12:51:42.226] [INFO] default - 456 加入了 5ee58faac2ddf87c56b191d5
+[2020-06-14T12:51:42.270] [INFO] default - socket add room!
+[2020-06-14T12:51:42.270] [INFO] default - 123 加入了 room1
+[2020-06-14T12:51:42.270] [INFO] default - socket add room!
+[2020-06-14T12:51:42.271] [INFO] default - 123 加入了 room2
+[2020-06-14T12:51:42.271] [INFO] default - socket add room!
+[2020-06-14T12:51:42.272] [INFO] default - 123 加入了 5ee58faac2ddf87c56b191d5
+[2020-06-14T12:51:49.352] [INFO] default - socket message!
+[2020-06-14T12:51:49.353] [INFO] default - {
+  username: '456',
+  src: '//s3.qiufengh.com/avatar/177.jpeg',
+  img: '',
+  msg: '123',
+  to: false,
+  from: false,
+  roomType: 'group',
+  roomid: '5ee58faac2ddf87c56b191d5',
+  time: '2020-06-14T04:51:49.349Z',
+  type: 'text',
+  clientId: '547233a2-24f1-4950-adef-9e628fdead68'
+}
+[2020-06-14T12:51:49.353] [INFO] default - 456 对房 5ee58faac2ddf87c56b191d5 说: 123
+[2020-06-14T12:52:17.254] [INFO] default - socket message!
+[2020-06-14T12:52:17.254] [INFO] default - {
+  username: '456',
+  src: '//s3.qiufengh.com/avatar/177.jpeg',
+  img: 'static/files/1592110337222-wtf.png?width=685&height=917',
+  msg: '',
+  roomType: 'group',
+  roomid: '5ee58faac2ddf87c56b191d5',
+  type: 'img',
+  time: '2020-06-14T04:52:17.159Z',
+  to: false,
+  from: false,
+  clientId: 'ab959e21-3ecd-4fb2-ae0b-0dfe1a006cb1'
+}
+[2020-06-14T12:52:17.254] [INFO] default - 456 对房 5ee58faac2ddf87c56b191d5 说: 
+[2020-06-14T12:53:46.789] [INFO] default - socket disconnect!
+[2020-06-14T12:53:46.789] [INFO] default - 456 退出了 room1
+[2020-06-14T12:53:46.789] [INFO] default - 456 退出了 room2
+[2020-06-14T12:53:47.260] [INFO] default - socket connect!
+[2020-06-14T12:53:47.479] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T12:53:47.484] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'tw7gcEHwmNahm_ZoAAAJ',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    _id: 5ee34bb7dcdc86406dd01f1a
+  },
+  '$init': true
+}
+[2020-06-14T12:53:47.489] [INFO] default - updateRes
+[2020-06-14T12:53:47.490] [INFO] default - socket login! {
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} MK89iUEAjDVGF7KNAAAK ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T12:53:47.561] [INFO] default - socket add room!
+[2020-06-14T12:53:47.561] [INFO] default - 456 加入了 room1
+[2020-06-14T12:53:47.562] [INFO] default - socket add room!
+[2020-06-14T12:53:47.562] [INFO] default - 456 加入了 room2
+[2020-06-14T12:53:47.562] [INFO] default - socket add room!
+[2020-06-14T12:53:47.562] [INFO] default - 456 加入了 5ee58faac2ddf87c56b191d5
+[2020-06-14T12:53:56.256] [INFO] default - socket disconnect!
+[2020-06-14T12:53:56.257] [INFO] default - 456 退出了 room1
+[2020-06-14T12:53:56.258] [INFO] default - 456 退出了 room2
+[2020-06-14T12:53:56.453] [INFO] default - socket connect!
+[2020-06-14T12:53:56.540] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T12:53:56.563] [INFO] default - socket add room!
+[2020-06-14T12:53:56.564] [INFO] default - 456 加入了 room1
+[2020-06-14T12:53:56.565] [INFO] default - socket add room!
+[2020-06-14T12:53:56.565] [INFO] default - 456 加入了 room2
+[2020-06-14T12:53:56.565] [INFO] default - socket add room!
+[2020-06-14T12:53:56.565] [INFO] default - 456 加入了 5ee58faac2ddf87c56b191d5
+[2020-06-14T12:53:56.575] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'MK89iUEAjDVGF7KNAAAK',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    _id: 5ee34bb7dcdc86406dd01f1a
+  },
+  '$init': true
+}
+[2020-06-14T12:53:56.593] [INFO] default - updateRes
+[2020-06-14T12:53:56.593] [INFO] default - socket login! {
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} -gkU3V_EIMwbqlGpAAAL ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T12:54:35.700] [INFO] default - socket disconnect!
+[2020-06-14T12:54:35.701] [INFO] default - 456 退出了 room1
+[2020-06-14T12:54:35.701] [INFO] default - 456 退出了 room2
+[2020-06-14T12:54:36.140] [INFO] default - socket connect!
+[2020-06-14T12:54:36.364] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T12:54:36.366] [INFO] default - socket add room!
+[2020-06-14T12:54:36.366] [INFO] default - 456 加入了 room1
+[2020-06-14T12:54:36.368] [INFO] default - socket add room!
+[2020-06-14T12:54:36.369] [INFO] default - 456 加入了 room2
+[2020-06-14T12:54:36.370] [INFO] default - socket add room!
+[2020-06-14T12:54:36.371] [INFO] default - 456 加入了 5ee58faac2ddf87c56b191d5
+[2020-06-14T12:54:36.374] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: '-gkU3V_EIMwbqlGpAAAL',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    _id: 5ee34bb7dcdc86406dd01f1a
+  },
+  '$init': true
+}
+[2020-06-14T12:54:36.376] [INFO] default - updateRes
+[2020-06-14T12:54:36.376] [INFO] default - socket login! {
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} lhhLuzjDjn873hkaAAAM ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T12:54:44.382] [INFO] default - cache!!!!
+[2020-06-14T12:54:44.473] [INFO] default - socket connect!
+[2020-06-14T12:54:44.503] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T12:54:44.520] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'lhhLuzjDjn873hkaAAAM',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    _id: 5ee34bb7dcdc86406dd01f1a
+  },
+  '$init': true
+}
+[2020-06-14T12:54:44.531] [INFO] default - updateRes
+[2020-06-14T12:54:44.531] [INFO] default - socket login! {
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} rG9JbuaGo59_Yf36AAAA ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T12:54:44.606] [INFO] default - socket add room!
+[2020-06-14T12:54:44.606] [INFO] default - 456 加入了 room1
+[2020-06-14T12:54:44.607] [INFO] default - socket add room!
+[2020-06-14T12:54:44.607] [INFO] default - 456 加入了 room2
+[2020-06-14T12:54:44.608] [INFO] default - socket add room!
+[2020-06-14T12:54:44.608] [INFO] default - 456 加入了 5ee58faac2ddf87c56b191d5
+[2020-06-14T12:54:46.081] [INFO] default - socket connect!
+[2020-06-14T12:54:46.170] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '123',
+  id: '5ed4f3ed4256f1b1ff246fe5',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T12:54:46.175] [INFO] default - socket add room!
+[2020-06-14T12:54:46.176] [INFO] default - 123 加入了 room1
+[2020-06-14T12:54:46.181] [INFO] default - socket add room!
+[2020-06-14T12:54:46.182] [INFO] default - 123 加入了 room2
+[2020-06-14T12:54:46.185] [INFO] default - socket add room!
+[2020-06-14T12:54:46.187] [INFO] default - 123 加入了 5ee58faac2ddf87c56b191d5
+[2020-06-14T12:54:46.207] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee4e7765df4344e0def3124,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-13T13:16:36.212Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'ZeU-hIcaOm_I0PEwAAAI',
+    userId: 5ed4f3ed4256f1b1ff246fe5,
+    _id: 5ee4e7765df4344e0def3124
+  },
+  '$init': true
+}
+[2020-06-14T12:54:46.221] [INFO] default - updateRes
+[2020-06-14T12:54:46.221] [INFO] default - socket login! {
+  name: '123',
+  id: '5ed4f3ed4256f1b1ff246fe5',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} d8VyH41wSNW_ty4HAAAB ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T12:54:47.377] [INFO] default - socket disconnect!
+[2020-06-14T12:54:47.377] [INFO] default - 456 退出了 room1
+[2020-06-14T12:54:47.378] [INFO] default - 456 退出了 room2
+[2020-06-14T12:54:47.648] [INFO] default - socket connect!
+[2020-06-14T12:54:47.866] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T12:54:47.871] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'rG9JbuaGo59_Yf36AAAA',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    _id: 5ee34bb7dcdc86406dd01f1a
+  },
+  '$init': true
+}
+[2020-06-14T12:54:47.880] [INFO] default - updateRes
+[2020-06-14T12:54:47.880] [INFO] default - socket login! {
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} 1PRYV4Y7-Th7lud7AAAC ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T12:54:48.139] [INFO] default - socket add room!
+[2020-06-14T12:54:48.140] [INFO] default - 456 加入了 room1
+[2020-06-14T12:54:48.141] [INFO] default - socket add room!
+[2020-06-14T12:54:48.142] [INFO] default - 456 加入了 room2
+[2020-06-14T12:54:48.143] [INFO] default - socket add room!
+[2020-06-14T12:54:48.144] [INFO] default - 456 加入了 5ee58faac2ddf87c56b191d5
+[2020-06-14T12:54:49.465] [INFO] default - socket disconnect!
+[2020-06-14T12:54:49.465] [INFO] default - 123 退出了 room1
+[2020-06-14T12:54:49.466] [INFO] default - 123 退出了 room2
+[2020-06-14T12:54:49.809] [INFO] default - socket connect!
+[2020-06-14T12:54:49.998] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '123',
+  id: '5ed4f3ed4256f1b1ff246fe5',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T12:54:50.001] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee4e7765df4344e0def3124,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-13T13:16:36.212Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'd8VyH41wSNW_ty4HAAAB',
+    userId: 5ed4f3ed4256f1b1ff246fe5,
+    _id: 5ee4e7765df4344e0def3124
+  },
+  '$init': true
+}
+[2020-06-14T12:54:50.012] [INFO] default - updateRes
+[2020-06-14T12:54:50.013] [INFO] default - socket login! {
+  name: '123',
+  id: '5ed4f3ed4256f1b1ff246fe5',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} lGoqHBHJ0Ig0jXJDAAAD ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T12:54:50.075] [INFO] default - socket add room!
+[2020-06-14T12:54:50.076] [INFO] default - 123 加入了 room1
+[2020-06-14T12:54:50.076] [INFO] default - socket add room!
+[2020-06-14T12:54:50.076] [INFO] default - 123 加入了 room2
+[2020-06-14T12:54:50.076] [INFO] default - socket add room!
+[2020-06-14T12:54:50.077] [INFO] default - 123 加入了 5ee58faac2ddf87c56b191d5
+[2020-06-14T12:54:52.055] [INFO] default - socket disconnect!
+[2020-06-14T12:54:52.055] [INFO] default - 456 退出了 room1
+[2020-06-14T12:54:52.055] [INFO] default - 456 退出了 room2
+[2020-06-14T12:54:52.248] [INFO] default - socket connect!
+[2020-06-14T12:54:52.356] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T12:54:52.371] [INFO] default - socket add room!
+[2020-06-14T12:54:52.371] [INFO] default - 456 加入了 room1
+[2020-06-14T12:54:52.371] [INFO] default - socket add room!
+[2020-06-14T12:54:52.372] [INFO] default - 456 加入了 room2
+[2020-06-14T12:54:52.372] [INFO] default - socket add room!
+[2020-06-14T12:54:52.372] [INFO] default - 456 加入了 5ee58faac2ddf87c56b191d5
+[2020-06-14T12:54:52.392] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: '1PRYV4Y7-Th7lud7AAAC',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    _id: 5ee34bb7dcdc86406dd01f1a
+  },
+  '$init': true
+}
+[2020-06-14T12:54:52.408] [INFO] default - updateRes
+[2020-06-14T12:54:52.409] [INFO] default - socket login! {
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} 5kBrBLl71MQyqJw3AAAE ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T12:55:13.660] [INFO] default - cache!!!!
+[2020-06-14T12:55:14.247] [INFO] default - socket connect!
+[2020-06-14T12:55:14.270] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T12:55:14.283] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: '5kBrBLl71MQyqJw3AAAE',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    _id: 5ee34bb7dcdc86406dd01f1a
+  },
+  '$init': true
+}
+[2020-06-14T12:55:14.296] [INFO] default - updateRes
+[2020-06-14T12:55:14.296] [INFO] default - socket login! {
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} Y5HjYYKwopTFIMPmAAAA ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T12:55:14.373] [INFO] default - socket add room!
+[2020-06-14T12:55:14.374] [INFO] default - 456 加入了 room1
+[2020-06-14T12:55:14.374] [INFO] default - socket add room!
+[2020-06-14T12:55:14.375] [INFO] default - 456 加入了 room2
+[2020-06-14T12:55:14.375] [INFO] default - socket add room!
+[2020-06-14T12:55:14.376] [INFO] default - 456 加入了 5ee58faac2ddf87c56b191d5
+[2020-06-14T12:55:15.976] [INFO] default - socket connect!
+[2020-06-14T12:55:15.996] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '123',
+  id: '5ed4f3ed4256f1b1ff246fe5',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T12:55:15.998] [INFO] default - socket add room!
+[2020-06-14T12:55:15.998] [INFO] default - 123 加入了 room1
+[2020-06-14T12:55:15.999] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee4e7765df4344e0def3124,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-13T13:16:36.212Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'lGoqHBHJ0Ig0jXJDAAAD',
+    userId: 5ed4f3ed4256f1b1ff246fe5,
+    _id: 5ee4e7765df4344e0def3124
+  },
+  '$init': true
+}
+[2020-06-14T12:55:16.001] [INFO] default - socket add room!
+[2020-06-14T12:55:16.002] [INFO] default - 123 加入了 room2
+[2020-06-14T12:55:16.004] [INFO] default - socket add room!
+[2020-06-14T12:55:16.005] [INFO] default - 123 加入了 5ee58faac2ddf87c56b191d5
+[2020-06-14T12:55:16.007] [INFO] default - updateRes
+[2020-06-14T12:55:16.008] [INFO] default - socket login! {
+  name: '123',
+  id: '5ed4f3ed4256f1b1ff246fe5',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} UCA9MuHdg3O8hYkQAAAB ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T12:55:20.398] [INFO] default - cache!!!!
+[2020-06-14T12:55:20.853] [INFO] default - socket connect!
+[2020-06-14T12:55:20.868] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '123',
+  id: '5ed4f3ed4256f1b1ff246fe5',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T12:55:20.881] [INFO] default - socket add room!
+[2020-06-14T12:55:20.882] [INFO] default - 123 加入了 room1
+[2020-06-14T12:55:20.886] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee4e7765df4344e0def3124,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-13T13:16:36.212Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'UCA9MuHdg3O8hYkQAAAB',
+    userId: 5ed4f3ed4256f1b1ff246fe5,
+    _id: 5ee4e7765df4344e0def3124
+  },
+  '$init': true
+}
+[2020-06-14T12:55:20.898] [INFO] default - socket add room!
+[2020-06-14T12:55:20.898] [INFO] default - 123 加入了 room2
+[2020-06-14T12:55:20.900] [INFO] default - updateRes
+[2020-06-14T12:55:20.900] [INFO] default - socket login! {
+  name: '123',
+  id: '5ed4f3ed4256f1b1ff246fe5',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} oA9j5J9ftJVcFg5hAAAA ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T12:55:20.908] [INFO] default - socket add room!
+[2020-06-14T12:55:20.909] [INFO] default - 123 加入了 5ee58faac2ddf87c56b191d5
+[2020-06-14T12:55:20.945] [INFO] default - socket connect!
+[2020-06-14T12:55:20.963] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T12:55:20.965] [INFO] default - socket add room!
+[2020-06-14T12:55:20.965] [INFO] default - 456 加入了 room1
+[2020-06-14T12:55:20.966] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'Y5HjYYKwopTFIMPmAAAA',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    _id: 5ee34bb7dcdc86406dd01f1a
+  },
+  '$init': true
+}
+[2020-06-14T12:55:20.968] [INFO] default - socket add room!
+[2020-06-14T12:55:20.969] [INFO] default - 456 加入了 room2
+[2020-06-14T12:55:20.971] [INFO] default - updateRes
+[2020-06-14T12:55:20.971] [INFO] default - socket login! {
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} SpCs1bgvVL2pVpylAAAB ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T12:55:20.972] [INFO] default - socket add room!
+[2020-06-14T12:55:20.972] [INFO] default - 456 加入了 5ee58faac2ddf87c56b191d5
+[2020-06-14T12:55:24.027] [INFO] default - socket disconnect!
+[2020-06-14T12:55:24.028] [INFO] default - 456 退出了 room1
+[2020-06-14T12:55:24.028] [INFO] default - 456 退出了 room2
+[2020-06-14T12:55:24.028] [INFO] default - 456 退出了 5ee58faac2ddf87c56b191d5
+[2020-06-14T12:55:24.422] [INFO] default - socket connect!
+[2020-06-14T12:55:24.600] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T12:55:24.609] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'SpCs1bgvVL2pVpylAAAB',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    _id: 5ee34bb7dcdc86406dd01f1a
+  },
+  '$init': true
+}
+[2020-06-14T12:55:24.624] [INFO] default - updateRes
+[2020-06-14T12:55:24.624] [INFO] default - socket login! {
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} sJFpfoQAM-_CIdlqAAAC ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T12:55:24.673] [INFO] default - socket add room!
+[2020-06-14T12:55:24.674] [INFO] default - 456 加入了 room1
+[2020-06-14T12:55:24.674] [INFO] default - socket add room!
+[2020-06-14T12:55:24.674] [INFO] default - 456 加入了 room2
+[2020-06-14T12:55:24.674] [INFO] default - socket add room!
+[2020-06-14T12:55:24.674] [INFO] default - 456 加入了 5ee58faac2ddf87c56b191d5
+[2020-06-14T12:55:25.420] [INFO] default - socket disconnect!
+[2020-06-14T12:55:25.420] [INFO] default - 123 退出了 room1
+[2020-06-14T12:55:25.421] [INFO] default - 123 退出了 room2
+[2020-06-14T12:55:25.421] [INFO] default - 123 退出了 5ee58faac2ddf87c56b191d5
+[2020-06-14T12:55:25.771] [INFO] default - socket connect!
+[2020-06-14T12:55:26.066] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '123',
+  id: '5ed4f3ed4256f1b1ff246fe5',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T12:55:26.073] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee4e7765df4344e0def3124,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-13T13:16:36.212Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'oA9j5J9ftJVcFg5hAAAA',
+    userId: 5ed4f3ed4256f1b1ff246fe5,
+    _id: 5ee4e7765df4344e0def3124
+  },
+  '$init': true
+}
+[2020-06-14T12:55:26.087] [INFO] default - updateRes
+[2020-06-14T12:55:26.088] [INFO] default - socket login! {
+  name: '123',
+  id: '5ed4f3ed4256f1b1ff246fe5',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} ENZ5iRa7T4dsNf_xAAAD ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T12:55:26.222] [INFO] default - socket add room!
+[2020-06-14T12:55:26.222] [INFO] default - 123 加入了 room1
+[2020-06-14T12:55:26.223] [INFO] default - socket add room!
+[2020-06-14T12:55:26.223] [INFO] default - 123 加入了 room2
+[2020-06-14T12:55:26.223] [INFO] default - socket add room!
+[2020-06-14T12:55:26.223] [INFO] default - 123 加入了 5ee58faac2ddf87c56b191d5
+[2020-06-14T12:58:30.776] [INFO] default - socket disconnect!
+[2020-06-14T12:58:30.776] [INFO] default - 123 退出了 room1
+[2020-06-14T12:58:30.776] [INFO] default - 123 退出了 room2
+[2020-06-14T12:58:30.777] [INFO] default - 123 退出了 5ee58faac2ddf87c56b191d5
+[2020-06-14T12:58:30.797] [INFO] default - socket disconnect!
+[2020-06-14T12:58:30.797] [INFO] default - 456 退出了 room1
+[2020-06-14T12:58:30.798] [INFO] default - 456 退出了 room2
+[2020-06-14T12:58:30.798] [INFO] default - 456 退出了 5ee58faac2ddf87c56b191d5
+[2020-06-14T12:58:31.618] [INFO] default - socket connect!
+[2020-06-14T12:58:31.619] [INFO] default - socket connect!
+[2020-06-14T12:58:31.727] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '123',
+  id: '5ed4f3ed4256f1b1ff246fe5',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T12:58:31.786] [INFO] default - socket add room!
+[2020-06-14T12:58:31.787] [INFO] default - 123 加入了 room1
+[2020-06-14T12:58:31.788] [INFO] default - socket add room!
+[2020-06-14T12:58:31.788] [INFO] default - 123 加入了 room2
+[2020-06-14T12:58:31.788] [INFO] default - socket add room!
+[2020-06-14T12:58:31.788] [INFO] default - 123 加入了 5ee58faac2ddf87c56b191d5
+[2020-06-14T12:58:31.810] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee4e7765df4344e0def3124,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-13T13:16:36.212Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'ENZ5iRa7T4dsNf_xAAAD',
+    userId: 5ed4f3ed4256f1b1ff246fe5,
+    _id: 5ee4e7765df4344e0def3124
+  },
+  '$init': true
+}
+[2020-06-14T12:58:31.848] [INFO] default - updateRes
+[2020-06-14T12:58:31.848] [INFO] default - socket login! {
+  name: '123',
+  id: '5ed4f3ed4256f1b1ff246fe5',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} KlkJytc_vL70eo2-AAAE ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T12:58:31.871] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T12:58:31.894] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'sJFpfoQAM-_CIdlqAAAC',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    _id: 5ee34bb7dcdc86406dd01f1a
+  },
+  '$init': true
+}
+[2020-06-14T12:58:31.910] [INFO] default - updateRes
+[2020-06-14T12:58:31.910] [INFO] default - socket login! {
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} n5cZEG40LptTbm18AAAF ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T12:58:32.020] [INFO] default - socket add room!
+[2020-06-14T12:58:32.025] [INFO] default - 456 加入了 room1
+[2020-06-14T12:58:32.025] [INFO] default - socket add room!
+[2020-06-14T12:58:32.025] [INFO] default - 456 加入了 room2
+[2020-06-14T12:58:32.025] [INFO] default - socket add room!
+[2020-06-14T12:58:32.025] [INFO] default - 456 加入了 5ee58faac2ddf87c56b191d5
+[2020-06-14T12:59:09.811] [INFO] default - 192.168.31.143 - - "GET /static/files/1591246389505-fatty.png?width=211&height=200&imageView2/2/w/360 HTTP/1.1" 401 22 "http://192.168.31.143:9099/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+[2020-06-14T13:04:02.845] [INFO] default - socket disconnect!
+[2020-06-14T13:04:02.846] [INFO] default - 123 退出了 room1
+[2020-06-14T13:04:02.847] [INFO] default - 123 退出了 room2
+[2020-06-14T13:04:02.847] [INFO] default - 123 退出了 5ee58faac2ddf87c56b191d5
+[2020-06-14T13:04:02.892] [INFO] default - socket disconnect!
+[2020-06-14T13:04:02.892] [INFO] default - 456 退出了 room1
+[2020-06-14T13:04:02.892] [INFO] default - 456 退出了 room2
+[2020-06-14T13:04:02.892] [INFO] default - 456 退出了 5ee58faac2ddf87c56b191d5
+[2020-06-14T13:04:03.754] [INFO] default - socket connect!
+[2020-06-14T13:04:03.756] [INFO] default - socket connect!
+[2020-06-14T13:04:04.566] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T13:04:04.567] [INFO] default - socket add room!
+[2020-06-14T13:04:04.568] [INFO] default - 456 加入了 room1
+[2020-06-14T13:04:04.568] [INFO] default - socket add room!
+[2020-06-14T13:04:04.569] [INFO] default - 456 加入了 room2
+[2020-06-14T13:04:04.569] [INFO] default - socket add room!
+[2020-06-14T13:04:04.569] [INFO] default - 456 加入了 5ee58faac2ddf87c56b191d5
+[2020-06-14T13:04:04.570] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee34bb7dcdc86406dd01f1a,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-12T09:32:36.199Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'n5cZEG40LptTbm18AAAF',
+    userId: 5ed4f4314256f1b1ff246fe7,
+    _id: 5ee34bb7dcdc86406dd01f1a
+  },
+  '$init': true
+}
+[2020-06-14T13:04:04.578] [INFO] default - updateRes
+[2020-06-14T13:04:04.578] [INFO] default - socket login! {
+  name: '456',
+  id: '5ed4f4314256f1b1ff246fe7',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} syYqoWKLmWPQrZArAAAH ::ffff:127.0.0.1 127.0.0.1
+[2020-06-14T13:04:04.991] [INFO] default - {
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  name: '123',
+  id: '5ed4f3ed4256f1b1ff246fe5',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+}
+[2020-06-14T13:04:04.992] [INFO] default - socket add room!
+[2020-06-14T13:04:04.992] [INFO] default - 123 加入了 room1
+[2020-06-14T13:04:04.993] [INFO] default - socket add room!
+[2020-06-14T13:04:04.993] [INFO] default - 123 加入了 room2
+[2020-06-14T13:04:04.993] [INFO] default - socket add room!
+[2020-06-14T13:04:04.993] [INFO] default - 123 加入了 5ee58faac2ddf87c56b191d5
+[2020-06-14T13:04:04.994] [INFO] default - socketRes model {
+  '$__': InternalCache {
+    strictMode: true,
+    selected: {},
+    shardval: undefined,
+    saveError: undefined,
+    validationError: undefined,
+    adhocPaths: undefined,
+    removing: undefined,
+    inserting: undefined,
+    version: undefined,
+    getters: {},
+    _id: 5ee4e7765df4344e0def3124,
+    populate: undefined,
+    populated: undefined,
+    wasPopulated: false,
+    scope: undefined,
+    activePaths: StateMachine {
+      paths: [Object],
+      states: [Object],
+      stateNames: [Array]
+    },
+    pathsToScopes: {},
+    ownerDocument: undefined,
+    fullPath: undefined,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0
+    },
+    '$options': true
+  },
+  isNew: false,
+  errors: undefined,
+  _doc: {
+    os: 'Chrome/83.0.4103.97',
+    browser: 'browser',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+    time: 2020-06-13T13:16:36.212Z,
+    __v: 0,
+    ip: '127.0.0.1',
+    socketId: 'KlkJytc_vL70eo2-AAAE',
+    userId: 5ed4f3ed4256f1b1ff246fe5,
+    _id: 5ee4e7765df4344e0def3124
+  },
+  '$init': true
+}
+[2020-06-14T13:04:04.998] [INFO] default - updateRes
+[2020-06-14T13:04:04.998] [INFO] default - socket login! {
+  name: '123',
+  id: '5ed4f3ed4256f1b1ff246fe5',
+  browser: 'browser',
+  os: 'Chrome/83.0.4103.97',
+  ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+} QDYsR-YlD0uCNiibAAAG ::ffff:127.0.0.1 127.0.0.1

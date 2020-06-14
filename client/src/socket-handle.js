@@ -10,7 +10,7 @@ export async function handleInit({
 }) {
     // 此处逻辑需要抽离复用
   socket.emit('login', {name, id, ...env});
-  ['room1', 'room2'].forEach(item => {
+  roomList.forEach(item => {
     const obj = {
       name,
       src,

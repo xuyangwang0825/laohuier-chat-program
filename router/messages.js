@@ -29,7 +29,7 @@ router.get('/history/byUser', async (req, res) => {
       return sort(item.selfId, item.friendId._id);
     });
 
-    const allRooms = selfRoom.concat(['room1', 'room2']);
+    const allRooms = selfRoom.concat(['room1', 'room2','5ee58faac2ddf87c56b191d5']);
 
     const allMsg = allRooms.map(item => {
       return  Message.find( { roomid: item } ).sort({"_id": -1}).limit(20);

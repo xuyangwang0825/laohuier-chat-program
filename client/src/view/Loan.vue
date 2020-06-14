@@ -32,10 +32,9 @@
         </mu-list>
         <mu-list style="background: #eee">
           <mu-sub-header>我的群聊</mu-sub-header>
-          <mu-list-item style="padding: 5px 0 5px 0;background: #fff;border-radius: 5px;margin: 0 10px 0 10px" avatar button :ripple="true" @click="chatwindow(item.groupId._id)" v-for="item in groupList" :key="item._id">
+          <mu-list-item style="padding: 5px 0 5px 0;background: #fff;border-radius: 5px;margin: 0 10px 0 10px" avatar button :ripple="true" @click="chatwindow(item.groupId._id, item.groupId.name)" v-for="item in groupList" :key="item._id">
             <mu-list-item-action>
               <div class="avatar">
-                <span class="tip" v-if="unRead1!==0">{{unRead1 > 99 ? '99+' : unRead1}}</span>
                 <Avatar :src="house1" size="small"></Avatar>
               </div>
             </mu-list-item-action>
@@ -94,7 +93,8 @@ export default {
   async mounted() {
     // 只全局监听一次
     if(this.userInfo.id) {
-      this.$store.dispatch('postListFriend', {selfId: this.userInfo.id})
+      this.$store.dispatch('postListFriend', {selfId: this.userInfo.id});
+      this.$store.dispatch('postListGroup', {selfId: this.userInfo.id});
     }
   },
   methods: {
@@ -121,7 +121,7 @@ export default {
         return content;
       }
     },
-    async chatwindow(roomID) {
+    async chatwindow(roomID, roomName) {
       if (!this.userInfo.token) {
         const res = await Confirm({
           title: "提示",
@@ -132,7 +132,7 @@ export default {
         }
         return;
       }
-      this.$router.push({ path: "/chat", query: { roomId: roomID, type: 'group' } });
+      this.$router.push({ path: "/chat", query: { roomId: roomID, type: 'group', roomName} });
     },
     async chatSingle(friendId, friendName) {
       const userId = this.userInfo.id;

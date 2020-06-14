@@ -91,7 +91,7 @@ export default {
             name: userInfo.userid,
             id: userInfo.id,
             src: userInfo.src,
-            roomList: ['room1', 'room2']
+            roomList: ['room1', 'room2','5ee58faac2ddf87c56b191d5']
           })
           this.$router.push({ path: "/" });
         } else {
