@@ -45,8 +45,10 @@ app.use(function(req, res, next) {
     '/api/message/history/byUser',
     '/api/friend/list',
     '/api/user/vipuser',
+    '/api/group/list',
     '/api/user/getInfo',
-    '/api/user/search',
+    '/api/user/searchUser',
+    '/api/room/searchGroup',
     '/api/message/v2/history',
     '/api/message/getHot'].includes(pathUrl)) {
     // return next();
@@ -86,6 +88,8 @@ app.use('/api/file', require('./router/files'));
 app.use('/api/user', require('./router/users'));
 app.use('/api/message', require('./router/messages'));
 app.use('/api/friend', require('./router/friends'));
+app.use('/api/group', require('./router/groups'));
+app.use('/api/room', require('./router/rooms'));
 
 if ('development' === app.get('env')) {
   app.set('showStackError', true)

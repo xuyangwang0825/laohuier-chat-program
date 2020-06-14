@@ -23,7 +23,7 @@ const Service = {
   getSearchUser: data => Axios.get('/api/user/searchUser', {
     params: data
   }),
-  getSearchGroup: data => Axios.get('/api/user/searchGroup', {
+  getSearchGroup: data => Axios.get('/api/room/searchGroup', {
     params: data
   }),
   // 机器人

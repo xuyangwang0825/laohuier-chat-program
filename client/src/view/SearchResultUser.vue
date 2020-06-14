@@ -47,7 +47,7 @@ export default {
   methods: {
     change (value) {
       console.log(value);
-      this.$store.dispatch('getSearch', {name: value});
+      this.$store.dispatch('getSearchUser', {name: value});
     },
     cancel() {
       console.log('cancel');

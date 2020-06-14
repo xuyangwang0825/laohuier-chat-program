@@ -155,24 +155,4 @@ router.get('/searchUser', async (req, res) => {
     data: result
   })
 })
-
-router.get('/searchGroup', async (req, res) => {
-  const { room } = req.query;
-  if(!room) {
-    global.logger.error('room can\'t find')
-    res.json({
-      errno: 0,
-      data: []
-      // msg: 'name can\'t find'
-    });
-    return;
-  }
-
-  const result = await User.find({name: new RegExp(name)}, '_id name src').exec();
-
-  res.json({
-    errno: 0,
-    data: result
-  })
-})
 module.exports = router;

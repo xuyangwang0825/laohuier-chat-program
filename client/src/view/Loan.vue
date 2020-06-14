@@ -40,7 +40,7 @@
               </div>
             </mu-list-item-action>
             <mu-list-item-content>
-              <mu-list-item-title>公共聊天室</mu-list-item-title>
+              <mu-list-item-title>{{item.groupId.name}}</mu-list-item-title>
               <mu-list-item-sub-title>{{getTailMsg(item.groupId._id)}}</mu-list-item-sub-title>
             </mu-list-item-content>
             <mu-list-item-action>

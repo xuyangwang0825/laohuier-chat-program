@@ -1,19 +1,24 @@
 var mongoose = require('mongoose')
 //聊天记录模型
-var GroupSchema = new mongoose.Schema({
-  selfId: String, // 使用默认 _id
-  groupId: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: 'Room'
-  }, // 使用默认 _id
+var RoomSchema = new mongoose.Schema({
+  name: {
+    unique: true,
+    type: String
+  },
   isDelete: Boolean,
-  time: {
-    type: Date,
-    default: Date.now()
+  meta: {
+    createAt: {
+      type: Date,
+      default: Date.now()
+    },
+    updateAt: {
+      type: Date,
+      default: Date.now()
+    }
   }
 })
 //静态方法
-GroupSchema.statics = {
+RoomSchema.statics = {
   fetch: function (cb) {
     return this
       .find({})
@@ -26,4 +31,4 @@ GroupSchema.statics = {
       .exec(cb)
   }
 }
-module.exports = GroupSchema
+module.exports = RoomSchema
