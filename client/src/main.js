@@ -86,7 +86,7 @@ socket.on('connect', async () => {
   }
 });
 
-socket.on('disconnect', () => {
+socket.on('disconnect', (roomList) => {
   console.log('disconnect');
   Toast({
     content: '抱歉网络开了小差',

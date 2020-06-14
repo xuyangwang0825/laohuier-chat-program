@@ -24,7 +24,7 @@ const {
   gethAllCache
 } = cache;
 
-const roomList = ['room1', 'room2','5ee58faac2ddf87c56b191d5'];
+//const roomList = ['room1', 'room2','5ee58faac2ddf87c56b191d5'];
 
 function websocket(server) {
     const io = require('socket.io')(server);
@@ -224,13 +224,15 @@ function websocket(server) {
         handleLogoutRoom(socket);
       })
 
-      socket.on('disconnect', async () => {
+      socket.on('disconnect', async (roomList) => {
         global.logger.info('socket disconnect!');
-        handleLogoutRoom(socket);
+        handleLogoutRoom(socket,roomList);
       })
 
-      const handleLogoutRoom = async (socket) => {
+      const handleLogoutRoom = async (socket,roomList) => {
         try {
+          console.log("handleLogoutRoom")
+          console.log(this.roomList)
           roomList.forEach(async (item) => {
             const roomid = item;
             const name = socket.name;

@@ -5,7 +5,7 @@ const User = require('../models/user');
 const Socket = require('../models/socket');
 const router = Express.Router();
 
-// 添加好友
+// 加入群组
 router.post('/add', async (req, res) => {
   const {selfId, groupId} = req.body;
   if (!selfId || !groupId) {
@@ -52,6 +52,10 @@ router.post('/add', async (req, res) => {
       data: '添加成功',
       errno: 0,
     });
+    /*
+    socket.join(roomid);
+    global.socketIO.to(groupId).emit('room', { onlineUsers, roomid }
+    */
     /*
     const groupRes = await Group.find({selfId: friendId}).populate({
       path: 'friendId',

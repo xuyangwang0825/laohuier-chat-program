@@ -31,6 +31,8 @@ import Avatar from "@components/Avatar";
 import {mapGetters, mapState} from 'vuex';
 import Alert from '@components/Alert';
 import {queryString} from '@utils/queryString';
+import socket from '../socket';
+import store from '../store';
 export default {
   name: 'GroupDetail',
 
@@ -59,7 +61,8 @@ export default {
     ...mapState([
       'roomUsers',
       'userInfo',
-      'lookRoomInfo'
+      'lookRoomInfo',
+      'groupList'
     ]),
   },
 
@@ -98,6 +101,15 @@ export default {
           content: res.data.data
         })
       }
+      const obj = {
+        name: this.userInfo.name,
+        src: this.userInfo.src,
+        roomid: this.roomid
+      };
+      socket.emit('room', obj);
+      this.$store.dispatch('postListGroup', {selfId: this.userInfo.id})
+      this.$store.dispatch('getRoomHistory', { selfId: this.userInfo.id})
+      console.log("addgroupfinish")
     },
     async chatwindow(roomID, roomName) {
       //console.log(roomName)

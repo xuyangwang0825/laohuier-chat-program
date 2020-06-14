@@ -8,7 +8,7 @@ const router = Express.Router();
 
 // 创建群组
 router.post('/create',  (req, res) => {
-  const { name, password, src } = req.body;
+  const { name } = req.body;
   if(name.length > 15) {
     res.json({
       errno: 1,
@@ -16,45 +16,22 @@ router.post('/create',  (req, res) => {
     });
     return;
   }
-  if(password.length > 20) {
-    res.json({
-      errno: 1,
-      data: '密码过长'
-    });
-    return;
-  }
-  User.findOne({name},  (err, user) => {
+  room = new Room({
+    name
+  })
+  room.save( (err, room) => {
     if (err) {
       global.logger.error(err)
     }
-    if (user) {
-      res.json({
-        errno: 1,
-        data: '用户名已存在'
-      })
-    } else {
-      user = new User({
-        name,
-        password,
-        src
-      })
-      user.save( (err, user) => {
-        if (err) {
-          global.logger.error(err)
-        }
-        const userInfo = {
-          name: name,
-          src: user.src,
-          id: user.id,
-        }
-        res.json({
-          errno: 0,
-          userInfo,
-          token: jwt.encode(userInfo, jwtConfig.secret),
-          data: '注册成功'
-        })
-      })
+    const roomInfo = {
+      name: name,
+      id: room.id,
     }
+    res.json({
+      errno: 0,
+      roomInfo,
+      data: '创建成功'
+    })
   })
 });
 

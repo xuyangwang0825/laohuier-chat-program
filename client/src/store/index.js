@@ -232,6 +232,10 @@ const store = new Vuex.Store({
         commit('sethotUserList', res.data.data)
       }
     },
+    async createRoom({}, data) {
+      const res = await url.postCreateRoom(data);
+      return res;
+    },
     async addFriend({}, data) {
       const res = await url.postAddFriend(data);
       return res;
