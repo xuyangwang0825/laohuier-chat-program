@@ -94,12 +94,6 @@
               </div>
             </div>
           </div>
-          <div class="fun-li" @click="handleTips">
-            <i class="icon iconfont icon-zanshang"></i>
-          </div>
-          <div class="fun-li" @click="handleGithub">
-            <i class="icon iconfont icon-wenti"></i>
-          </div>
         </div>
         <div class="chat">
           <div class="input" @keyup.enter="submess">
@@ -277,17 +271,6 @@
       },
       openSimpleDialog () {
         this.$router.push({ path: "/groupDetail", query: { roomId: this.roomid} });
-      },
-      handleGithub() {
-        Alert({
-          content: 'https://github.com/hua1995116/webchat'
-        });
-      },
-      handleTips() {
-        Alert({
-          title: '请我喝杯奶茶',
-          html: '<div><img style="width: 150px" src="//s3.qiufengh.com/money/WechatIMG64.jpeg" /><br><img style="width: 150px" src="https://s3.qiufengh.com/webchat/wechat-pay.jpeg"></div>'
-        });
       },
       goback () {
         /*
