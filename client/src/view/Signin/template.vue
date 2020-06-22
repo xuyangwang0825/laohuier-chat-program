@@ -3,14 +3,17 @@
     <div class="content">
       <form action="" name="form2">
         <div class="context-logo">
-          <img src="https://s3.qiufengh.com/webchat/webchat-logo-160.png" alt="">
+            唠会~
+<!--          <img src="https://s3.qiufengh.com/webchat/webchat-logo-160.png" alt="">-->
         </div>
         <Input v-model="username" type="text" placeholder="输入账号"/>
         <br/>
         <Input v-model="password" type="password" placeholder="输入密码"/>
         <br/>
         <div class="box box2" @click="submit">
-          <Arrow></Arrow>
+          <div class="but">
+            {{type === 'login' ? '登陆' : '注册' }}
+          </div>
         </div>
       </form>
       <div class="bottom-wraper">
@@ -138,6 +141,8 @@ export default {
       display: flex;
       justify-content: center;
       align-items: center;
+      font-size: 50px;
+      color: #03a9f4;
       img {
         width: 80px;
         height: 80px;
@@ -188,8 +193,12 @@ export default {
 }
 
 .box2 {
-  border-radius: 55% 45% 73% 27% / 70% 58% 42% 30%;
-  animation: morph1 4s infinite;
+  border-radius: 25px;
+  width: 300px;
+  height: 50px;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 0px;
 }
 // @keyframes morph {
 //   0% {
@@ -208,21 +217,5 @@ export default {
 //     border-radius: 26% 74% 49% 51% / 21% 51% 49% 79%;
 //   }
 // }
-@keyframes morph1 {
-  0% {
-    border-radius: 26% 74% 49% 51% / 21% 51% 49% 79%;
-  }
-  25% {
-    border-radius: 74% 26% 50% 50% / 53% 29% 71% 47%;
-  }
-  50% {
-    border-radius: 48% 52% 28% 72% / 45% 71% 29% 55%;
-  }
-  75% {
-    border-radius: 48% 52% 76% 24% / 70% 49% 51% 30%;
-  }
-  100% {
-    border-radius: 26% 74% 49% 51% / 21% 51% 49% 79%;
-  }
-}
+//
 </style>
