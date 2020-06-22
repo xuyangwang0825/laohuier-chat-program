@@ -45,6 +45,7 @@ app.use(function(req, res, next) {
     '/api/message/history/byUser',
     '/api/friend/list',
     '/api/friend/add',
+    '/api/friend/delete',
     '/api/user/vipuser',
     '/api/group/list',
     '/api/group/add',

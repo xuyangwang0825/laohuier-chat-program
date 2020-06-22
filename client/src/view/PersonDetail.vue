@@ -41,11 +41,14 @@
         </mu-list>
       </div>
       <mu-row gutter class="user-tools">
-        <mu-col span="6">
+        <mu-col span="4">
           <mu-button class="op" @click="chatSingle(lookUserInfo.id, lookUserInfo.name)">发起聊天</mu-button>
         </mu-col>
-        <mu-col span="6">
+        <mu-col span="4">
           <mu-button class="op" color="primary" @click="handelAddFriend">添加好友</mu-button>
+        </mu-col>
+        <mu-col span="4">
+          <mu-button class="op" color="red" @click="handelDeleteFriend">删除好友</mu-button>
         </mu-col>
       </mu-row>
 
@@ -104,6 +107,22 @@ export default {
     },
     async handelAddFriend() {
       const res = await this.$store.dispatch('addFriend', {
+        selfId: this.userInfo.id,
+        friendId: this.lookUserInfo.id
+      });
+      if(res.data.errno === 0) {
+        console.log('1111');
+        Alert({
+          content: res.data.data
+        })
+      } else {
+        Alert({
+          content: res.data.data
+        })
+      }
+    },
+    async handelDeleteFriend() {
+      const res = await this.$store.dispatch('deleteFriend', {
         selfId: this.userInfo.id,
         friendId: this.lookUserInfo.id
       });

@@ -7,6 +7,7 @@ const router = Express.Router();
 
 // 添加好友
 router.post('/add', async (req, res) => {
+
   const {selfId, friendId} = req.body;
   if (!selfId || !friendId) {
     global.logger.error('selfId / friendId can\'t find')
@@ -76,6 +77,70 @@ router.post('/add', async (req, res) => {
       // 兼容多端设备
       // io.to(socket.socketId).emit('message', mess);
       global.socketIO.to(socket.socketId).emit('friend', friendRes);
+    });
+
+  } catch(e) {
+    console.log(e);
+    res.json({
+      errno: 1,
+      data: '服务器异常'
+    })
+  }
+});
+
+router.post('/delete', async (req, res) => {
+  const {selfId, friendId} = req.body;
+
+  if (!selfId || !friendId) {
+    global.logger.error('selfId / friendId can\'t find')
+    res.json({
+      errno: 1
+    });
+    return;
+  }
+  try {
+    if(selfId === friendId) {
+      res.json({
+        error: 1,
+        data: '咱不开玩笑，放过自己吧🤣'
+      })
+      return;
+    }
+
+    const checkUser = await User.findOne({_id: selfId}).exec();
+
+    if(checkUser.length === 0 ) {
+      res.json({
+        errno: 1,
+        data: '登录异常，请重新登录'
+      });
+      return;
+    }
+
+    const checkFriend = await Friend.find({selfId, friendId}).exec();
+
+    if(checkFriend.length == 0) {
+      res.json({
+        errno: 1,
+        data: '您还未添加过该好友，请先去添加好友'
+      });
+      return;
+    }
+
+    Friend.remove({selfId:selfId,friendId:friendId},function(err){
+      if(!err){
+          console.log('删除成功---');
+      }
+    })
+    Friend.remove({selfId:friendId,friendId:selfId},function(err){
+      if(!err){
+          console.log('删除成功---');
+      }
+    })
+
+    res.json({
+      data: '删除成功',
+      errno: 0,
     });
 
   } catch(e) {

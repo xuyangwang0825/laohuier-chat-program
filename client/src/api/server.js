@@ -49,6 +49,8 @@ const Service = {
   postCreateRoom: data => Axios.post('/api/room/create', data),
   // 添加好友
   postAddFriend: data => Axios.post('/api/friend/add', data),
+  // 删除好友
+  postDeleteFriend: data => Axios.post('/api/friend/delete', data),
   // 添加群组
   postAddGroup: data => Axios.post('/api/group/add', data),
   // 查询好友李彪
