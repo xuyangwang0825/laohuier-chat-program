@@ -68,6 +68,9 @@
               视频的声音
             </mu-list-item-title>
           </mu-list-item>
+          <mu-list-item class="delete-button">
+            <mu-button class="op" color="red" @click="handelDeleteGroup" >退出群组</mu-button>
+          </mu-list-item>
         </mu-list>
       </div>
     </div>
@@ -79,6 +82,8 @@ import Header from "@components/Header";
 import Avatar from "@components/Avatar";
 import {mapGetters, mapState} from 'vuex';
 import {queryString} from '@utils/queryString';
+import Alert from "@components/Alert";
+import store from '../store';
 export default {
   name: 'GroupDetail',
 
@@ -105,13 +110,16 @@ export default {
 
   computed: {
     ...mapState([
-      'roomUsers'
+      'roomUsers',
+      'userInfo',
     ]),
   },
 
   mounted() {
     const roomId = queryString(window.location.href, 'roomId');
     this.roomid = roomId;
+    const userId = queryString(window.location.href, 'userId');
+    this.userid = userId;
     // const allUser = {}
     // let i = 0;
     // while(i < 180) {
@@ -125,6 +133,23 @@ export default {
   },
 
   methods: {
+    async handelDeleteGroup(){
+      const res = await this.$store.dispatch('deleteGroup', {
+        selfId: this.userid,
+        groupId: this.roomid
+      });
+      if(res.data.errno === 0) {
+        console.log('1111');
+        console.log(res.data.data)
+        Alert({
+          content: res.data.data
+        })
+      } else {
+        Alert({
+          content: res.data.data
+        })
+      }
+    },
     goback() {
       this.$router.isBack = true;
       this.$router.goBack();

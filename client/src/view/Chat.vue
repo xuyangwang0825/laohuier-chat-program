@@ -270,7 +270,7 @@
         });
       },
       openSimpleDialog () {
-        this.$router.push({ path: "/groupDetail", query: { roomId: this.roomid} });
+        this.$router.push({ path: "/groupDetail", query: { roomId: this.roomid,userId: this.userid} });
       },
       goback () {
         /*

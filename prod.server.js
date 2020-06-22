@@ -49,6 +49,7 @@ app.use(function(req, res, next) {
     '/api/user/vipuser',
     '/api/group/list',
     '/api/group/add',
+    '/api/group/delete',
     '/api/user/getInfo',
     '/api/room/getInfo',
     '/api/room/create',

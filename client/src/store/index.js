@@ -248,6 +248,10 @@ const store = new Vuex.Store({
       const res = await url.postAddGroup(data);
       return res;
     },
+    async deleteGroup({}, data) {
+      const res = await url.postDeleteGroup(data);
+      return res;
+    },
     async uploadAvatar({}, data) {
       const res = await url.postUploadAvatar(data);
       return res.data;

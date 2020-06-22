@@ -53,6 +53,8 @@ const Service = {
   postDeleteFriend: data => Axios.post('/api/friend/delete', data),
   // 添加群组
   postAddGroup: data => Axios.post('/api/group/add', data),
+  // 退出群组
+  postDeleteGroup: data => Axios.post('/api/group/delete', data),
   // 查询好友李彪
   postListFriend: data => Axios.post('/api/friend/list', data),
   // 查询群组

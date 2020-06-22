@@ -77,6 +77,57 @@ router.post('/add', async (req, res) => {
   }
 });
 
+// 退出群组
+router.post('/delete', async (req, res) => {
+  const {selfId, groupId} = req.body;
+  if (!selfId || !groupId) {
+    global.logger.error('selfId / groupId can\'t find')
+    res.json({
+      errno: 1
+    });
+    return;
+  }
+  try {
+
+    const checkUser = await User.findOne({_id: selfId}).exec();
+
+    if(checkUser.length === 0 ) {
+      res.json({
+        errno: 1,
+        data: '登录异常，请重新登录'
+      });
+      return;
+    }
+
+    const checkGroup = await Group.find({selfId, groupId}).exec();
+
+    if(checkGroup.length == 0) {
+      res.json({
+        errno: 1,
+        data: '您还未加入该群组，请先去加入群组'
+      });
+      return;
+    }
+
+    Group.remove({selfId:selfId,groupId:groupId},function(err){
+      if(!err){
+          console.log('删除成功---');
+      }
+    })
+
+    res.json({
+      data: '退出成功',
+      errno: 0,
+    });
+  } catch(e) {
+    console.log(e);
+    res.json({
+      errno: 1,
+      data: '服务器异常'
+    })
+  }
+});
+
 router.post('/list', async (req, res) => {
   const {selfId} = req.body;
   if (!selfId) {
