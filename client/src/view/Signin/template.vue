@@ -134,10 +134,10 @@ export default {
   background-position: center center;
   .content {
     width: 80vw;
-    margin: 60px auto 20px;
+    margin: 100px auto 20px;
     .context-logo {
       width: 70vw;
-      margin: 0 auto 20px;
+      margin: 0 auto 60px;
       display: flex;
       justify-content: center;
       align-items: center;
