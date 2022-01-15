@@ -29,7 +29,7 @@
     "qiniu-node": "^0.0.1",
     "redis": "^2.8.0",
     "rimraf": "^2.6.0",
-    "shelljs": "^0.7.6",
+    "shelljs": "^0.8.5",
     "socket.io": "^1.7.3",
     "superagent": "^3.5.2",
     "webpack-merge": "^4.2.1",
